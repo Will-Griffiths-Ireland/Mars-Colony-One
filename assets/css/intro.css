@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+
+
+body {
+    background-color: black;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+
+.slogan {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    /* background-color: chartreuse; */
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: darkorange;
+    opacity: .5;
+    font-size: 3vw;
+    font-family: 'Exo 2', sans-serif;
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 3vw;
+    animation-delay: 23s;
+    animation-duration: 6s;
+    animation-name: text-fade-in;
+    animation-fill-mode: forwards;
+}
+
+
+.planet-div {
+    
+    position: relative;
+    padding: 5%;
+    width: inherit;
+    z-index: 5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: cyan; */
+}
+
+.planet {
+    max-height: 90vh;
+    max-width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: planet-zoom;
+    animation-delay: 6s;
+    animation-duration: 12s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+
+}
+
+.text-in-1{
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 3vw;
+    animation-delay: 1s;
+    animation-duration: 6s;
+    animation-name: text-fade-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+.text-in-2{
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 3vw;
+    animation-delay: 4s;
+    animation-duration: 6s;
+    animation-name: text-fade-in-out;
+    animation-fill-mode: forwards;
+}
+
+.text-in-3{
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 3vw;
+    animation-delay: 7s;
+    animation-duration: 6s;
+    animation-name: text-fade-in-out;
+    animation-fill-mode: forwards;
+    
+}
+
+.text-in-4{
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 5vw;
+    animation-delay: 12s;
+    animation-duration: 6s;
+    animation-name: text-fade-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.text-in-5{
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 3vmin;
+    width: 65vw;
+    margin: 0 auto;
+    animation-delay: 17s;
+    animation-duration: 6s;
+    animation-name: text-fade-in;
+    animation-fill-mode: forwards;
+    
+}
+
+/* fade in of rocket icon link*/
+
+.text-in-6{
+    text-align: center;
+    transform:rotate(-45deg); /* rotating icon to point upwards */
+    z-index: 10;
+    text-align: center;
+    color: rgba(0,0,0,0);
+    font-size: 9vmin;
+    margin: 0 auto;
+    animation-delay: 20s;
+    animation-duration: 6s;
+    animation-name: text-fade-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.flashy
+{
+    animation-name: rocket-flash;
+    animation-delay: 22s;
+    animation-duration: 2000ms;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rocket-flash {
+    from {
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    to {
+        color: rgb(243, 119, 4);
+        font-size: 1.05em;
+    }
+
+}
+
+
+@keyframes planet-zoom {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+}
+
+@keyframes text-fade-in-out{
+    from{
+        color: rgba(255, 255, 255, 0);
+        text-shadow: .02em .02em rgba(112, 112, 112, 0);
+    }
+    50% {
+        color: rgba(255, 255, 255, 1);
+        text-shadow: .02em .02em rgba(112, 112, 112, 1);
+    }
+    to {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: .02em .02em rgba(112, 112, 112, 0);
+    }
+}
+
+@keyframes text-fade-in{
+    from{
+        color: rgba(255, 255, 255, 0);
+        text-shadow: .02em .02em rgba(112, 112, 112, 0);
+    }
+    to {
+        color: rgba(255, 255, 255, 1);
+        text-shadow: .02em .02em rgba(112, 112, 112, 1);
+    }
+}
