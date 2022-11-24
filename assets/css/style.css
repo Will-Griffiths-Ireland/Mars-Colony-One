@@ -26,7 +26,7 @@ body{
 .main-heading{
     /* background: transparent; */
     background: linear-gradient(180deg, rgba(62,146,204,1) 0%, rgba(0,0,0,0) 100%);
-    height:8rem;
+    height:5rem;
     
 }
 
@@ -34,9 +34,10 @@ h1{
     display: inline;
     margin: auto 0;
     padding-left: 1rem;
+    line-height: 5rem;
     background: transparent;
     color: white;
-    font-size: 5rem;
+    font-size: 2.5rem;
     /* letter-spacing: .5rem; */
     text-shadow: rgb(0, 0, 0) .1rem .1rem;
 }
@@ -45,7 +46,7 @@ h1{
     color: #DF6C24;
     text-shadow: rgb(255, 166, 0) 0 0 .1rem;
     background: transparent;
-    font-size: 4.5rem;
+    font-size: 2rem;
 }
 
 .logo-globe-spin{
@@ -81,7 +82,6 @@ nav{
     display: inline;
     background: transparent;
     float: right;
-    line-height: 8rem;
 }
 
 ul{
@@ -90,14 +90,83 @@ ul{
     margin: 0;
     padding: 0;
     color: white;
-    line-height: 8rem;
     padding-right: 1rem;
+    line-height: 5rem;
 }
 
 li{
     display: inline;
     background: inherit;
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: .1rem;
+    padding: 1rem;
     
+}
+
+.mission-overview{
+    background: rgba(62,146,204,.1);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
+    float: left;
+    margin: 2vw;
+    width:44vw;
+    height: 35vh;
+}
+
+.founder-message{
+    background: rgba(62,146,204,.1);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
+    float: left;
+    margin: 2vw;
+    width:44vw;
+    height: 35vh;
+}
+
+.mission-image-container{
+    background: rgba(62,146,204,.1);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
+    float: right;
+    margin: 2vw;
+    width:44vw;
+    height: 35vh;   
+}
+
+.founder-image-container{
+    background: rgba(62,146,204,.1);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
+    float: left;
+    margin: 2vw;
+    width:44vw;
+    height: 35vh;   
+}
+
+.founder-image{
+    margin: 0 auto;
+    width: inherit;
+    height: inherit; 
+    background-image: url(../images/founder.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.mission-image{
+    margin: 0 auto;
+    width: inherit;
+    height: inherit; 
+    background-image: url(../images/inspire.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
