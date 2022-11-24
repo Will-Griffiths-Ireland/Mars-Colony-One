@@ -19,7 +19,10 @@ body{
     animation-fill-mode: both;
     animation-iteration-count: 1;
     /* background-color: black; */
-    background: url(../images/stars.png) repeat;
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -69,12 +72,36 @@ h1{
     }
 }
 
+/* fade for the entire page */
+
 @keyframes body-fade{
     from{
         opacity: 0;
     }
     to{
         opacity: 1;
+    }
+}
+
+/*Animation to slide in element from off screen right*/
+
+@keyframes slide-in-right{
+    from{
+        transform: translateX(-100vw);
+    }
+    to{
+        transform:unset;
+    }
+}
+
+/*Animation to slide in element from off screen left*/
+
+@keyframes slide-in-left{
+    from{
+        transform: translateX(+100vw);
+    }
+    to{
+        transform:unset;
     }
 }
 
@@ -104,7 +131,7 @@ li{
 }
 
 .mission-overview{
-    background: rgba(62,146,204,.1);
+    background: rgba(62,146,204,.5);
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -115,7 +142,12 @@ li{
 }
 
 .founder-message{
-    background: rgba(62,146,204,.1);
+    
+    animation-name: slide-in-left;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    background: rgba(62,146,204,.5);
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -126,7 +158,7 @@ li{
 }
 
 .mission-image-container{
-    background: rgba(62,146,204,.1);
+    background: rgba(62,146,204,.5);
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -137,7 +169,11 @@ li{
 }
 
 .founder-image-container{
-    background: rgba(62,146,204,.1);
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    background: rgba(62,146,204,.5);
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -150,23 +186,32 @@ li{
 .founder-image{
     margin: 0 auto;
     width: inherit;
-    height: inherit; 
-    background-image: url(../images/founder.jpg);
+    height: inherit;
+    border-radius: 2rem;  
+    background-image: url(../images/founder-trans-background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: top;
+}
+
+.founder-title{
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2.5vmin;
 }
 
 .mission-image{
     margin: 0 auto;
     width: inherit;
-    height: inherit; 
+    height: inherit;
+    border-radius: 2rem; 
     background-image: url(../images/inspire.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
     background-position: center;
 }
