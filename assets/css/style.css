@@ -8,14 +8,14 @@ body{
     
     font-family: 'Exo 2', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 
 .full-page-div{
     width: 100vw;
     height:100vh;
     animation-name: body-fade;
-    animation-duration: 4s;
-    animation-delay: 1s;
+    animation-duration: 3s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     /* background-color: black; */
@@ -45,6 +45,13 @@ h1{
     text-shadow: rgb(0, 0, 0) .1rem .1rem;
 }
 
+h2{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+}
+
 .logo-globe{
     color: #DF6C24;
     text-shadow: rgb(255, 166, 0) 0 0 .1rem;
@@ -54,12 +61,31 @@ h1{
 
 .logo-globe-spin{
     animation-name: spinny;
-    animation-delay: 2s;
+    animation-delay: 7s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 
 }
+
+.pageload-ani{
+    animation-name: big-logo;
+    animation-duration: 6s;
+    animation-delay: 1S;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes big-logo{
+    from{
+        font-size: 7vw;
+        fill-opacity: 0;
+    }
+    to{
+        transform: unset; 
+    }
+}
+
 
 /* Simple 3d rotate on x axis of globe icon */
 
@@ -131,21 +157,9 @@ li{
 }
 
 .mission-overview{
-    background: rgba(62,146,204,.5);
-    border-radius: 2rem;
-    padding: 1vw;
-    display: inline;
-    float: left;
-    margin: 2vw;
-    width:44vw;
-    height: 35vh;
-}
-
-.founder-message{
-    
-    animation-name: slide-in-left;
+    animation-name: slide-in-right;
     animation-duration: 3s;
-    animation-delay: 4s;
+    animation-delay: 6s;
     animation-fill-mode: both;
     background: rgba(62,146,204,.5);
     border-radius: 2rem;
@@ -153,23 +167,13 @@ li{
     display: inline;
     float: left;
     margin: 2vw;
-    width:44vw;
+    margin-left: 20vw;
+    width:25vw;
     height: 35vh;
 }
 
 .mission-image-container{
-    background: rgba(62,146,204,.5);
-    border-radius: 2rem;
-    padding: 1vw;
-    display: inline;
-    float: right;
-    margin: 2vw;
-    width:44vw;
-    height: 35vh;   
-}
-
-.founder-image-container{
-    animation-name: slide-in-right;
+    animation-name: slide-in-left;
     animation-duration: 3s;
     animation-delay: 3s;
     animation-fill-mode: both;
@@ -177,9 +181,45 @@ li{
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
+    float: right;
+    margin: 2vw;
+    margin-right: 20vw;
+    width:25vw;
+    height: 35vh;   
+}
+
+.founder-message{
+    
+    animation-name: slide-in-left;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+    background: rgba(62,146,204,.5);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
+    float: right;
+    margin: 2vw;
+    margin-right: 20vw;
+    width:25vw;
+    height: 35vh;
+}
+
+
+
+.founder-image-container{
+    animation-name: slide-in-right;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+    background: rgba(62,146,204,.5);
+    border-radius: 2rem;
+    padding: 1vw;
+    display: inline;
     float: left;
     margin: 2vw;
-    width:44vw;
+    margin-left: 20vw;
+    width:25vw;
     height: 35vh;   
 }
 
@@ -196,13 +236,13 @@ li{
 
 .founder-title{
     font-style: italic;
-    font-size: 1rem;
+    font-size: .8rem;
     text-align: center;
 }
 
 p{
-    color: rgb(0, 0, 0);
-    font-size: 2.5vmin;
+    color: rgb(255, 255, 255);
+    font-size: .8vw;
 }
 
 .mission-image{
