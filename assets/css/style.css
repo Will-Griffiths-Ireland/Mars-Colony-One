@@ -11,6 +11,10 @@ body{
     overflow-x: hidden;
 }
 
+.font-color{
+    color: #DF6C24;
+}
+
 .full-page-div{
     width: 100vw;
     height:100vh;
