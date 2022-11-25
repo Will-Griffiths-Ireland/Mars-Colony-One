@@ -19,7 +19,7 @@ body{
     animation-fill-mode: both;
     animation-iteration-count: 1;
     /* background-color: black; */
-    background: url(../images/background.jpg);
+    background: url(../images/background-darker.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
