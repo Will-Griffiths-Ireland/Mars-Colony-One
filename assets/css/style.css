@@ -61,29 +61,11 @@ h2{
 
 .logo-globe-spin{
     animation-name: spinny;
-    animation-delay: 7s;
+    animation-delay: 3s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 
-}
-
-.pageload-ani{
-    animation-name: big-logo;
-    animation-duration: 6s;
-    animation-delay: 1S;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-}
-
-@keyframes big-logo{
-    from{
-        font-size: 7vw;
-        fill-opacity: 0;
-    }
-    to{
-        transform: unset; 
-    }
 }
 
 
@@ -159,9 +141,9 @@ li{
 .mission-overview{
     animation-name: slide-in-right;
     animation-duration: 3s;
-    animation-delay: 6s;
+    animation-delay: 3s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.5);
+    /* background: rgba(62,146,204,.5); */
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -177,7 +159,7 @@ li{
     animation-duration: 3s;
     animation-delay: 3s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.5);
+    /* background: rgba(62,146,204,.5); */
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -192,9 +174,9 @@ li{
     
     animation-name: slide-in-left;
     animation-duration: 3s;
-    animation-delay: 12s;
+    animation-delay: 9s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.5);
+    /* background: rgba(62,146,204,.5); */
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -212,7 +194,7 @@ li{
     animation-duration: 3s;
     animation-delay: 9s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.5);
+    /* background: rgba(62,146,204,.5); */
     border-radius: 2rem;
     padding: 1vw;
     display: inline;
@@ -226,7 +208,7 @@ li{
 .founder-image{
     margin: 0 auto;
     width: inherit;
-    height: inherit;
+    height: 95%;
     border-radius: 2rem;  
     background-image: url(../images/founder-trans-background.png);
     background-repeat: no-repeat;
