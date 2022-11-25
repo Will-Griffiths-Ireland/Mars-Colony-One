@@ -45,6 +45,20 @@ h1{
     text-shadow: rgb(0, 0, 0) .1rem .1rem;
 }
 
+.nav-links *{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-links a:hover {
+    /* border-bottom:1px solid #DF6C24; */
+    text-shadow: 0 0 .5rem #DF6C24;
+    color: rgb(255, 255, 255);
+
+}
+
+
 h2{
     color: white;
     font-size: 1.2vw;
