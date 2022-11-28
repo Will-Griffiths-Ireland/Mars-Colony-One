@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
 }
 
+/* Core mars font color*/
 .font-color{
     color: #DF6C24;
 }
@@ -21,8 +22,9 @@ body{
 
 .center-div{
     margin: 0 auto;
-    /* height: min-content; */
 }
+
+/* div than encompases entire page which alows for fading in*/
 
 .full-page-div{
     width: 100vw;
@@ -53,7 +55,7 @@ h1{
     line-height: 5vh;
     background: transparent;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     /* letter-spacing: .5rem; */
     text-shadow: rgb(0, 0, 0) .1rem .1rem;
 }
@@ -62,7 +64,7 @@ h1{
     color: #DF6C24;
     text-shadow: rgb(255, 166, 0) 0 0 .1rem;
     background: transparent;
-    font-size: 3.3rem;
+    font-size: 3rem;
 }
 
 .nav-links *{
@@ -173,7 +175,7 @@ li{
     animation-duration: 3s;
     /* animation-delay: 3s; */
     animation-fill-mode: both;
-    background: rgba(62,146,204,.2);
+    /* background: rgba(62,146,204,.2); */
     /* border-radius: 1vw; */
     /* padding: 1vw; */
     display: inline;
@@ -200,7 +202,7 @@ li{
 
 .mission-overview p{
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-left: 5%;
     text-align: left; 
 }
@@ -210,7 +212,7 @@ li{
     animation-duration: 3s;
     /* animation-delay: 3s; */
     animation-fill-mode: both;
-    background: rgba(62,146,204,.2);
+    /* background: rgba(62,146,204,.2); */
     display: inline;
     float: right;
     width:50%;
@@ -233,7 +235,7 @@ li{
     width: 100vw;
     height: 5vh;
     clear: both;
-    background-color: rgba(62,146,204,.2);
+    /* background-color: rgba(62,146,204,.2); */
 
 }
 
@@ -243,7 +245,7 @@ li{
     animation-duration: 3s;
     animation-delay: 3s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.2);
+    /* background: rgba(62,146,204,.2); */
     display: inline;
     float: right;
     width:50%;
@@ -252,7 +254,7 @@ li{
 
 .founder-message p{
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-right: 5%;
     text-align: left; 
 }
@@ -264,7 +266,7 @@ li{
     animation-duration: 3s;
     animation-delay: 3s;
     animation-fill-mode: both;
-    background: rgba(62,146,204,.2);
+    /* background: rgba(62,146,204,.2); */
     display: inline;
     float: left;
     width:50%;
@@ -274,8 +276,21 @@ li{
 .founder-image{
     margin: 0 auto;
     width: inherit;
+    display: inline;
+    float:right;
     height: 95%; 
     background-image: url(../images/founder-trans-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.starseed-logo{
+    margin: 0 auto;
+    width: inherit;
+    display: inline;
+    float:left;
+    height: 95%; 
+    background-image: url(../images/starseed2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
