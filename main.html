@@ -7,12 +7,14 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     <!-- Select css based on screen width -->
     <!-- Mobile/Small screens -->
-    <link rel="stylesheet"  media="screen and (max-width: 1000px)" href="./assets/css/style-main-compact.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="./assets/css/style-main-compact.css">
     <!-- Desktop Widescreen 1080P -->
-    <link rel="stylesheet" media="screen and (min-width: 1000px) and (min-height: 800px)" href="./assets/css/style-main-standard.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px) and (min-height: 800px)"
+        href="./assets/css/style-main-standard.css">
     <!-- Desktop Widescreen 1440P+ -->
-    <link rel="stylesheet" media="screen and (min-width: 1800px) and (min-height: 1200px)" href="./assets/css/style-main-wide.css">
-    
+    <link rel="stylesheet" media="screen and (min-width: 1800px) and (min-height: 1200px)"
+        href="./assets/css/style-main-wide.css">
+
     <title>Mars Colony One</title>
 </head>
 
@@ -21,8 +23,12 @@
         <header>
             <div class="main-heading">
                 <h1> Mars Colony <i class="fa-solid fa-globe logo-globe logo-globe-spin"></i>ne</h1>
-                <nav>
-                    <ul class="nav-links">
+                <nav class="top-nav">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu">
                         <li><a href="main.html">The Mission</a> </li>
                         <li><a href="main.html">Big Red</a></li>
                         <li><a href="main.html">The Ship</a></li>
@@ -92,7 +98,7 @@
             <div class="page-splitter"></div>
         </footer>
     </div>
-    
+
     <script src="https://kit.fontawesome.com/d345974ec8.js" crossorigin="anonymous"></script>
 </body>
 
