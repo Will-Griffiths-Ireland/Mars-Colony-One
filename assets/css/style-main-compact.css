@@ -308,19 +308,8 @@ h2{
 }
 
 
-/* TESTING BURGER MENU*/
+/* Compact menu for smaller screens*/
 
-/* .top-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    color: #FFF;
-    height: 50px;
-    padding: 1em;
-  } */
 
   .top-nav{
 
@@ -392,7 +381,7 @@ h2{
     margin-top: 0px;
     transform: rotate(-405deg);
   }
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     .menu-button-container {
       display: flex;
     }

@@ -12,6 +12,12 @@ body{
     overflow-x: hidden;
 }
 
+/*hide elements related to compact nav menu*/
+
+#menu-toggle{visibility: hidden;}
+.menu-button-container{visibility: hidden;}
+.menu-button{visibility: hidden;}
+
 /* Core mars font color*/
 .font-color{
     color: #DF6C24;
@@ -68,19 +74,37 @@ h1{
     font-size: 3rem;
 }
 
-.nav-links *{
+.top-nav{
+    display: inline;
+    background: transparent;
+    float: right;
+}
+li{
+    display: inline;
+    background: inherit;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    padding: .5rem;  
+}
+
+.menu *{
     text-decoration: none;
+    list-style-type: none;
+    background: inherit;
+    margin: 0;
+    padding: 0;
     color: white;
+    padding-right: 1rem;
+    line-height: 5vh;
 
 }
 
-.nav-links a:hover {
+.menu a:hover {
     /* border-bottom:1px solid #DF6C24; */
     text-shadow: 0 0 1rem #ffffff;
     color:#DF6C24;
 
 }
-
 
 h2{
     color: white;
@@ -146,30 +170,6 @@ h2{
     }
 }
 
-nav{
-    display: inline;
-    background: transparent;
-    float: right;
-}
-
-ul{
-    list-style-type: none;
-    background: inherit;
-    margin: 0;
-    padding: 0;
-    color: white;
-    padding-right: 1rem;
-    line-height: 5vh;
-}
-
-li{
-    display: inline;
-    background: inherit;
-    font-size: 1rem;
-    letter-spacing: .1rem;
-    padding: 1rem;
-    
-}
 
 .mission-overview{
     animation-name: slide-in-right;
