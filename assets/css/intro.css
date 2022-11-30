@@ -5,18 +5,34 @@ body {
     background-color: black;
     font-family: 'Exo 2', sans-serif;
     margin: 0;
+    
 }
 
-a {
-    color: inherit;
-}
+a{color: inherit;}
 
+.skippy{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    z-index: 300;
+    display: block;
+}
+.skippy > a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    width: 100vw;
+    text-align: center;
+}
 
 .slogan {
     position: absolute;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: 10;
-    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 button {
@@ -25,11 +41,10 @@ button {
     background-color: darkorange;
     opacity: .5;
     font-size: 3vw;
-    font-family: 'Exo 2', sans-serif;
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 3vw;
+    font-size: 2rem;
     animation-delay: 23s;
     animation-duration: 6s;
     animation-name: text-fade-in;
@@ -39,36 +54,32 @@ button {
 
 .planet-div {
     
-    position: relative;
-    padding: 5%;
-    width: inherit;
+    position: absolute;
+    background: url(../images/Mars-reduced-saturated.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90vw;
+    height: 90vh;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     z-index: 5;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: cyan; */
-}
-
-.planet {
-    max-height: 90vh;
-    max-width: 90vw;
     top: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     animation-name: planet-zoom;
     animation-delay: 6s;
     animation-duration: 12s;
     animation-fill-mode: both;
     animation-timing-function: ease-in;
-
 }
+
 
 .text-in-1{
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 3vw;
+    font-size: 3rem;
     animation-delay: 1s;
     animation-duration: 6s;
     animation-name: text-fade-in-out;
@@ -80,7 +91,7 @@ button {
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 3vw;
+    font-size: 3rem;
     animation-delay: 4s;
     animation-duration: 6s;
     animation-name: text-fade-in-out;
@@ -91,7 +102,7 @@ button {
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 3vw;
+    font-size: 3rem;
     animation-delay: 7s;
     animation-duration: 6s;
     animation-name: text-fade-in-out;
@@ -103,7 +114,7 @@ button {
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 5vw;
+    font-size: 4rem;
     animation-delay: 12s;
     animation-duration: 6s;
     animation-name: text-fade-in;
@@ -115,8 +126,8 @@ button {
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 3vmin;
-    width: 65vw;
+    font-size: 2rem;
+    width: 50vw;
     margin: 0 auto;
     animation-delay: 17s;
     animation-duration: 6s;
@@ -133,7 +144,7 @@ button {
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
-    font-size: 9vmin;
+    font-size: 6rem;
     margin: 0 auto;
     animation-delay: 20s;
     animation-duration: 6s;
@@ -159,7 +170,6 @@ button {
     
     to {
         color: rgb(243, 119, 4);
-        font-size: 1.05em;
     }
 
 }
