@@ -294,7 +294,7 @@ h2{
     height: 45vw;
     display: inline;
     float: right;
-    background-image: url(../images/starseed2.png);
+    background-image: url(../images/starseed2-redder.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -308,7 +308,7 @@ h2{
 }
 
 
-/* Compact menu for smaller screens*/
+/* Compact nav menu for smaller screens*/
 
 
   .top-nav{
