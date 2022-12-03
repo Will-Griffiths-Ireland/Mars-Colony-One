@@ -51,27 +51,26 @@ User stories are more what the user wants from the site in terms of features and
 * As a user, I want to quickly understand the subject and how it relates to me
 * As a user, I want to navigate through content easily
 * As a user, I want to learn more about the product/service
-
-* As a user, I don't want massive blocks of text
+* As a user, I want to easily view the site with whatever device and browser I an using 
 ​
 ### **Site Aims:**
 ​
-This is optional but offers the insight into what the aim of the project are
-​
-* To inform the user on opening times
-* To inform the user about what we offer when they are here
-* To offer the user an oppertunity to get in contact
+* To trigger an interest in Mars with the user
+* To make the user understand the mission to colonise mars
+* To provide key details about the mission and what to expect
+* To get contact information from the user for future recruitment
 ​
 ​
 ### **Wireframes:**
 ​
-These are optional if you have any drawings or diagrams about how the site is intended to look include them here
+Wireframes were built in Balsamiq as a foundation.
+There are available here
 ​
 ### **Color Scheme:**
 ​
-Here discuss about the colours you have chosen for the design and the reasoning behind it, make sure to include hash values as well!
-​
-For the page we decided on a black (#000) and red theme (#a red hash i can't remember one) to hark back to the designs of the Sega megadrive which is symbolic of the retro gaming scene blah blah bull shit goes here
+I took inspiration for the colour palate from Mars itself and built out from that core color
+
+Mars Orange
 ​
 ## **Typography**
 ​
@@ -107,6 +106,8 @@ A webpage is a living beast it's going to evolve past the initial stages of rele
 * Due to the subject matter, we have discussed the idea of including a small JS game to engage the user
 ​
 ## **Testing Phase**
+
+
 ​
 This is the hardest bit of the readme, when we have completed a page we need to discuss testing.
 ​
@@ -143,8 +144,10 @@ You  can find the live site via the following URL - [live webpage](https://youru
 ​
 Here mention what technologies you've used for example
 ​
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Javascript (Only for fontawesome)
+- Powerpoint & Paint.net for starseed logo
 ​
 ## **Credits**
 ### **Honorable mentions**
@@ -153,7 +156,8 @@ It's always nice to mention those that helped you get there, if people gave you 
 ​
 ### **Content:**
 ​
-If you took any code from online source and by this i mean copy paste with zero changes mention it here!
+I used code from https://alvarotrigo.com/blog/hamburger-menu-css/ example 1
+This was used as a starting point for the advanced animations but I made extensive changes to make the menu fit my sites style
   
 ### **Media:**
 ​

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page provides form to submit basic contact details">
+    <meta name="keywords" content="mars, space, colony, work, adventure, sign-up">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style-sign-up.css">
+    <title>Mars Colony One</title>
+</head>
+
+<body>
+    <div class="full-page-div">
+        <header>
+            <div class="main-heading">
+                <h1> Mars Colony <i class="fa-solid fa-globe logo-globe logo-globe-spin"></i>ne</h1>
+                <nav class="top-nav">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+                    <ul class="menu">
+                        <li><a href="main.html">The Mission</a> </li>
+                        <li><a href="main.html">Big Red</a></li>
+                        <li><a href="main.html">The Ship</a></li>
+                        <li><a href="main.html">The Trip</a></li>
+                        <li><a href="main.html">FAQ</a></li>
+                        <li><a href="main.html"> > Sign Up < </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <div class="page-splitter"></div>
+        <section>
+            <div class="center-div">
+                <h2>SIGN UP TODAY!</h2>
+                <br>
+                <p>Now you know the basics of this exciting mission, enter your contact details below and a recruitment specialist will reach out to you soon.</p>
+                <br>
+                
+                <br>
+                <div id="suit-image-container">
+                <img id="suit-image" src="./assets/images/space-jacket-600x400.webp" alt="Image of spacesuit with mars colony one logo">
+                </div>
+                <p id="suit-legend" class="center-text">Yours could be the next name on an MCO suit!</p>
+                <br>
+                <div id="form-container">    
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <h3 id="form-heading">Contact Details</h3>
+                    <label for="fname"> First Name </label>
+                    <input type="text" id="fname" name="first_name"required><br>
+                    <label for="lname"> Last Name </label>
+                    <input type="text" id="lname" name="last_name" required><br>
+                    <label for="email-address"> Email Address </label>
+                    <input type="email" id="email" name="email_address" required><br>
+                    <div class="center-div">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+                </form>
+            </div>
+            </div>
+            
+        </section>
+
+        <!-- <footer>
+            <div class="page-splitter"></div>
+        </footer> -->
+    </div>
+
+    <script src="https://kit.fontawesome.com/d345974ec8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
