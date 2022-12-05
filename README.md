@@ -1,7 +1,8 @@
 
 # Mars Colony One
 ## **Site Overview**
-The site is designed for a fictional company called StarSeed industries, who are leading a market leader in space exploration.
+The site is designed for a fictional company called StarSeed industries, who are a market leader in space exploration.
+The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
 The objective of the site is to capture the attention of possible colonists, provide details about the mission, and collect contact information from visitors that wish to apply.
 ​
 ![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
@@ -17,7 +18,7 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
-1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+1. [**Site-Wide Features**](#site-wide-features)
     * [***Header Element:***](#header-element)
     * [***The rest of your features***](#features)
     * [**Footer**](#footer)
@@ -51,7 +52,7 @@ User stories are more what the user wants from the site in terms of features and
 * As a user, I want to quickly understand the subject and how it relates to me
 * As a user, I want to navigate through content easily
 * As a user, I want to learn more about the product/service
-* As a user, I want to easily view the site with whatever device and browser I an using 
+* As a user, I want to easily view the site with whatever device and browser I am using 
 ​
 ### **Site Aims:**
 ​
@@ -63,29 +64,29 @@ User stories are more what the user wants from the site in terms of features and
 ​
 ### **Wireframes:**
 ​
-Wireframes were built in Balsamiq as a foundation.
-There are available here
+Wireframes were built in Balsamiq as a foundation but there has been an organic evolution of the desing during construction of the site and testing across the different devices
+Orgininal wireframs in PDF here
 ​
 ### **Color Scheme:**
 ​
 I took inspiration for the colour palate from Mars itself and built out from that core color
 
 Mars Orange
+Space Black
+Blue Atmosphere
 ​
 ## **Typography**
 ​
-Here is a chance to discuss the fonts used and again why, doesn't need to be crazy detail
+I was aiming for a sci-fi looks and feel without going overboard and alianting users
+The logo and heading use Exo 2 font
+Arial is used in other areas
 ​
-* Throughout the page, there are three fonts used:
-  * Oswald - For the title to give it a strong presence.
-  * DM sans - For all other headings including the navbar. 
-  * Open sans - for all content text.
+## **Site-Wide Features**
 ​
-* DM and Open sans were both selected to complement each other and because they have a soft appearance which I thought best suited to the site
-* All fonts were sourced from Google fonts, as stated in the credits.
-​
-## **Current Features Common to all pages**
-​
+#### *logo*
+
+The page logo embraces a simple sci-fi astectic
+Using Exo 2 font to look modern/futurist while still highly readable.
 #### *Navigation Bar:*
 This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
 ​
@@ -99,7 +100,9 @@ This is an example of the features section, your going to talk about each sectio
 ​
 ## **Future-Enhancements**
 ​
-A webpage is a living beast it's going to evolve past the initial stages of release generally, it's always good to discuss where you this the page may go in the future
+* user account creation
+* user application tracking
+
 ​
 * At the time of making this page i didn't have the understanding to actual send e-mails from the contact form so intergration with email.js to send e-mails would improve the users experience
 ​
