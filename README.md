@@ -24,7 +24,7 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [**Footer**](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
     * [**Intro Page Content**](#about-page-content)
-    * [**"The Mission" Page Content**](#teachings-page-content)
+    * [**"The Mission" Page Content**](#mission-page-content)
     * [**"The Trip" Content**](#community-page-content)
     * [**Contact Page Content**](#contact-page-content)
     * [**Form Feedback Page Content**](#form-feedback-page-content)
@@ -95,6 +95,13 @@ This is an example of the features section, your going to talk about each sectio
 * on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
 ​
 #### *features
+
+**Mission Page Content**
+
+Images and text slide in from the side
+mission image is a artistic impression of the colonist on mars and the use of circle shape and transparentcy links the picture to the clasic image of mars
+
+The image of the founder and his companies logo bring punch and credibility to the mission as they are well known
 ​
 * This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
 ​
@@ -104,17 +111,11 @@ This is an example of the features section, your going to talk about each sectio
 * user application tracking
 
 ​
-* At the time of making this page i didn't have the understanding to actual send e-mails from the contact form so intergration with email.js to send e-mails would improve the users experience
-​
-* Due to the subject matter, we have discussed the idea of including a small JS game to engage the user
 ​
 ## **Testing Phase**
 
+Testing was perfomred throught development of the site
 
-​
-This is the hardest bit of the readme, when we have completed a page we need to discuss testing.
-​
-Here is a good idea to talk about how and why you have tested with certain tools and validators so here a list of things to talk through
 ​
 * Responsiveness - How do you test this, dev tools? checking on multiple devices?
 ​

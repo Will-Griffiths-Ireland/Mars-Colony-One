@@ -147,10 +147,11 @@ h2{
     margin: 0 auto;
     width: 90vw;
     height:90vw;
-    background-image: url(../images/inspire.jpg);
+    background-image: url(../images/inspire_reduce_circle.webp);
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
+    filter: drop-shadow(0 0 5vw #DF6C24);
 }
 
 .founder-message{
@@ -199,7 +200,7 @@ h2{
     height: 45vw;
     display: inline;
     float: right;
-    background-image: url(../images/starseed2-redder.webp);
+    background-image: url(../images/starseed2-redder-circle.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -418,12 +419,14 @@ h2{
     
     .mission-image{
         margin: 0 auto;
+        aspect-ratio: 1;
         width: inherit;
         height: inherit;
-        background-image: url(../images/inspire.jpg);
+        background-image: url(../images/inspire_reduce_circle.webp);
         background-repeat: no-repeat;
         background-size:contain;
         background-position: center;
+        filter: drop-shadow(0 0 5vw #DF6C24);
     }
     
     
@@ -479,10 +482,11 @@ h2{
         display: inline;
         float:left;
         height: 95%; 
-        background-image: url(../images/starseed2-redder.webp);
+        background-image: url(../images/starseed2-redder-circle.webp);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+        
     }
     
     .founder-title{
