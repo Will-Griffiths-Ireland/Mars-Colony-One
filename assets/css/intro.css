@@ -13,7 +13,6 @@ body {
     text-align: center;
     color: rgba(0,0,0,0);
     font-size: 3rem;
-    margin: 1rem;
 }
 
 @media screen and (max-width:500px) {
@@ -22,7 +21,6 @@ body {
         text-align: center;
         color: rgba(0,0,0,0);
         font-size: 1rem ;
-        margin: .5rem;
     }
 
     
@@ -45,25 +43,18 @@ a{color: inherit;}
     text-align: center;
 }
 
-.slogan {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 
 
 .planet-div {
     
     position: absolute;
-    background: url(../images/Mars-reduced-saturated.webp);
+    background: url(../images/mars-intro-1000.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    filter: drop-shadow(0 0 5vw #DF6C24);
     width: 90vw;
     height: 90vh;
     margin-left:5vw;
@@ -81,65 +72,93 @@ a{color: inherit;}
 
 
 .text-in-1{
+    position: absolute;
+    top: 45vh;
+    display: block;
+    width: 100vw;
+    text-align: center;
     animation-delay: 1s;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
 
 }
 
 .text-in-2{
-    animation-delay: 4s;
-    animation-duration: 6s;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    top: 45vh;
+    text-align: center;
+    animation-delay: 5s;
+    animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
 }
 
 .text-in-3{
-    animation-delay: 7s;
-    animation-duration: 6s;
+    position: absolute;
+    top: 45vh;
+    display: block;
+    width: 100vw;
+    text-align: center;
+    animation-delay: 9s;
+    animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
     
 }
 
 .text-in-4{
-    animation-delay: 12s;
-    animation-duration: 6s;
+    position: absolute;
+    top: 45vh;
+    display: block;
+    width: 100vw;
+    text-align: center;
+    animation-delay: 13s;
+    animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
     font-size: 4rem;
-    margin: 1rem;
 }
 
 @media screen and (max-width:500px) {
 
     .text-in-4{
-        animation-delay: 12s;
-        animation-duration: 6s;
+        position: absolute;
+        top: 45vh;
+        display: block;
+        width: 100vw;
+        text-align: center;
+        animation-delay: 13s;
+        animation-duration: 4s;
         animation-name: text-fade-in-out;
         animation-fill-mode: forwards;
         z-index: 10;
         text-align: center;
         color: rgba(0,0,0,0);
         font-size: 2rem;
-        margin: 1rem;
     }
 
 }
 
 .text-in-5{
+    position: absolute;
+    top: 60vh;
+    text-align: center;
+    display: block;
+    width: 50vw;
+    padding-left: 25vw;
+    padding-right: 25vw;
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
     font-size: 2rem;
-    width: 50vw;
-    margin: 0 auto;
-    animation-delay: 24s;
-    animation-duration: 6s;
+    animation-delay: 20s;
+    animation-duration: 4s;
     animation-name: text-fade-in;
     animation-fill-mode: forwards;
     
@@ -149,16 +168,15 @@ a{color: inherit;}
 
 #logo-text{
     text-align: center;
-    width: inherit;
     color: rgba(0,0,0,0);
     text-shadow: .02em .02em rgba(112, 112, 112, 0);
     font-size: 6rem;
     z-index: 10;
     position: absolute;
-    top: 25vh;
-    width: 100%;
+    top: 35vh;
+    width: 100vw;
     animation-delay: 17s;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-name: text-fade-in;
     animation-fill-mode: both;
 }
@@ -169,7 +187,7 @@ a{color: inherit;}
     color: rgba(0,0,0,0);
     text-shadow: .02em .02em rgba(112, 112, 112, 0);
     animation-delay: 17s;
-    animation-duration: 6s;
+    animation-duration: 4s;
     animation-name: globe-fade-in;
     animation-fill-mode: both;
 }
@@ -180,7 +198,7 @@ a{color: inherit;}
     color: rgba(0,0,0,0);
     text-shadow: .02em .02em rgba(112, 112, 112, 0);
     font-size: 6.5rem;
-    animation-delay: 18s;
+    animation-delay: 17s;
     animation-name: spinny;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -203,12 +221,15 @@ a{color: inherit;}
 @media screen and (max-width:500px) {
     
     .text-in-5{
-        z-index: 10;
+        position: absolute;
+        top: 60vh;
         text-align: center;
+        z-index: 10;
         color: rgba(0,0,0,0);
         font-size: .5rem;
-        width: 90vw;
-        margin: 0 auto;
+        width: 50vw;
+        padding-left: 25vw;
+        padding-right: 25vw;
         animation-delay: 24s;
         animation-duration: 6s;
         animation-name: text-fade-in;
@@ -217,14 +238,13 @@ a{color: inherit;}
 
     #logo-text{
         text-align: center;
-        width: inherit;
         color: rgba(0,0,0,0);
         text-shadow: .02em .02em rgba(112, 112, 112, 0);
         font-size: 2rem;
         z-index: 10;
         position: absolute;
-        top: 25vh;
-        width: 100%;
+        top: 35vh;
+        width: 100vw;
         animation-delay: 17s;
         animation-duration: 6s;
         animation-name: text-fade-in;
@@ -261,13 +281,14 @@ a{color: inherit;}
 /* fade in of rocket icon link*/
 
 .text-in-6{
-    text-align: center;
-    transform:rotate(-45deg); /* rotating icon to point upwards */
+    position:absolute;
+    top: 65vh;
+    /* display: block; */
+    left: calc(50vw - 3rem);
+    transform:rotate(-45deg); /*rotating icon to point upwards */
     z-index: 10;
-    text-align: center;
     color: rgba(0,0,0,0);
     font-size: 6rem;
-    margin: 0 auto;
     animation-delay: 24s;
     animation-duration: 6s;
     animation-name: rocket-fade-in;
@@ -277,13 +298,15 @@ a{color: inherit;}
 
 @media screen and (max-width:500px) {
     .text-in-6{
-    text-align: center;
+    position: absolute;
+    top: 65vh;
+    left: 49vw;
+    /* display: block; */
+    width: auto;
     transform:rotate(-45deg); /* rotating icon to point upwards */
     z-index: 10;
-    text-align: center;
     color: rgba(0,0,0,0);
     font-size: 2rem;
-    margin: 0 auto;
     animation-delay: 20s;
     animation-duration: 6s;
     animation-name: rocket-fade-in;
