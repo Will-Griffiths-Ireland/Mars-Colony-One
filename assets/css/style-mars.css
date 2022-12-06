@@ -1,4 +1,4 @@
-/* Stylesheet for sign-up.html which resizes based on wide,standard or compact/mobile resolutions*/
+/* Stylesheet for mars.html which resizes based on wide,standard or compact/mobile resolutions*/
 
 /*Import Exo 2 font from google fonts*/
 
@@ -8,6 +8,7 @@
 
 *{
     margin:0;
+    /* outline: #ff0000 solid 1px; */
 }
 
  body{
@@ -68,6 +69,37 @@
 
 }
 
+p{
+    width: 98%;
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+}
+
+h2{
+    width: 95%;
+    color: #ffffff;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.li-reset{
+    
+    padding: 0;
+    margin:0;
+    letter-spacing: normal;
+    font-size: 1rem;
+    color: #ffffff;
+    display: list-item;
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+
 /* simple gradiant for header */
 .main-heading{
     background: linear-gradient(180deg, rgba(62,146,204,1) 0%, rgba(0,0,0,0) 100%);
@@ -80,6 +112,73 @@
     background: transparent;
     float: right;
     height: 5vh;    
+}
+
+
+/*Main mars map container*/
+#main-map{
+    background-image: url(../images/mars-intro-1000.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top:10vh;
+    left:10vw;
+    width: 80vw;
+    height: 80vh;
+}
+
+#quad1{
+    position:absolute;
+    margin: 0;
+    width: 30%;
+    height: 25%;
+    top: 20%;
+    left: 15%;
+    background-color: 	rgba(62, 146, 204, .3);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+
+}
+
+#quad2{
+    position: absolute;
+    margin:0;
+    width: 30%;
+    height: 25%;
+    top: 20%;
+    right: 15%;
+    background-color: 	rgba(116, 18, 29, .3);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+#quad3{
+    position: absolute;
+    margin:0;
+    width: 30%;
+    height: 25%;
+    bottom: 20%;
+    left: 15%;
+    background-color: 	rgba(116, 18, 29, .3);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+#quad4{
+    position: absolute;
+    margin:0;
+    width: 30%;
+    height: 25%;
+    bottom: 20%;
+    right: 15%;
+    background-color: 	rgba(62, 146, 204, .3);
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 
 /* Rules for lower resolution mobile/tablet screens*/
@@ -111,108 +210,9 @@ h1{
     font-size: 1.8rem;
 }
 
-h2{
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    width: inherit;
-    text-align: center;
-}
-
-p{
-    color: #ffffff;
-    font-size: 2rem;
-}
-
-h3,p{
-    font-family: Helvetica, sans-serif;
-    color: #ffffff;
-    font-size: 1rem;
-    width: 80vw;
-    max-width: 400px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-h3{
-    font-size: 1.5rem;
-}
-
-#suit-image{
-    display: block;
-    width: 100%;
-    height: 100%;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, #DF6C24 -6px -2px 16px 0px;
-    border-radius: 20px;
-}
-
-#suit-legend{
-
-    font-size: .8rem;
-    font-style: italic;
-    margin-top: 1rem;
-}
-
-#suit-image-container{
-    display: block;
-    width: 80vw;
-    max-width: 400px;
-    height: auto;
-    /* background-color: #ffffff; */
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 
-#form-container{
-    width: 80vw;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    
-}
-
-#form-heading{
-    text-align: center;
-    color: #ffffff;
-    font-family: Arial,sans-serif;
-    font-weight: 800;
-    width: inherit;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
-}
-
-form{
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
-}
-
-form input {
-    background-color: #DF6C24;
-    border-radius: 5px;
-    border: 0;
-    color: #ffffff;
-    font-size: 1rem;
-    padding: .5rem;
-    margin: .5rem;
-}
-
-form label{
-    color: #ffffff;
-    font-size: 1rem;
-    padding-left: 1rem;
-    margin: 0;
-
-}
-input:hover{
-    background-color: #ffffff;
-    border-radius: 5px;
-    color: #000000;
-}
 
 
 
@@ -354,13 +354,6 @@ input:hover{
         font-size: 2.2rem;
     }
 
-    h2{
-        color: white;
-        font-size: 2rem;
-        font-weight: 600;
-        width: inherit;
-        text-align: center;
-    }
 
     /* Hide checkbox used for compact view nav burger*/
     #menu-toggle{
@@ -395,95 +388,7 @@ input:hover{
 
     }
 
-    h3,p{
-        font-family: Helvetica, sans-serif;
-        color: #ffffff;
-        font-size: 1rem;
-        width: 30vw;
-        max-width: 400px;
-        margin-left:auto;
-        margin-right:auto;
-    }
 
-    h3{
-        font-size: 1.5rem;
-    }
-
-    #suit-image{
-        display: block;
-        width: 100%;
-        height: 100%;
-        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, #DF6C24 -6px -2px 16px 0px;
-        border-radius: 20px;
-    }
-
-    #suit-legend{
-
-        font-size: .8rem;
-        font-style: italic;
-        margin-top: 1rem;
-    }
-
-    #suit-image-container{
-        display: block;
-        width: 30vw;
-        max-width: 400px;
-        height: auto;
-        /* background-color: #ffffff; */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    
-
-    #form-container{
-        width: 30vw;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 100px;
-        
-    }
-
-    #form-heading{
-        text-align: center;
-        color: #ffffff;
-        font-family: Arial,sans-serif;
-        font-weight: 800;
-        width: inherit;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
-    }
-
-    form{
-        display: flex;
-        align-items: stretch;
-        flex-direction: column;
-    }
-
-    form input {
-        background-color: #DF6C24;
-        border-radius: 5px;
-        border: 0;
-        color: #ffffff;
-        font-size: 1rem;
-        padding: .5rem;
-        margin: .5rem;
-    }
-
-    form label{
-        color: #ffffff;
-        font-size: 1rem;
-        padding-left: 1rem;
-        margin: 0;
-
-    }
-    input:hover{
-        background-color: #ffffff;
-        border-radius: 5px;
-        color: #000000;
-    }
 
 
 }
@@ -508,13 +413,7 @@ input:hover{
         font-size: 2.8rem;
     }
 
-    h2{
-        color: white;
-        font-size: 2.2rem;
-        font-weight: 600;
-        width: inherit;
-        text-align: center;
-    }
+    
     
     li{
         display: inline;
