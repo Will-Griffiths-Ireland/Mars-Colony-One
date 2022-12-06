@@ -193,6 +193,7 @@ h2{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    filter: drop-shadow(0 0 1vw #ffffff);
 }
 .starseed-logo{
     /* margin: 0 auto; */
@@ -475,6 +476,7 @@ h2{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+        filter: drop-shadow(0 0 1vw #ffffff);
     }
     .starseed-logo{
         margin: 0 auto;

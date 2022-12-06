@@ -86,8 +86,10 @@ h2{
 .li-reset{
     
     padding: 0;
+    padding-bottom: 1rem;
     margin:0;
     letter-spacing: normal;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     color: #ffffff;
     display: list-item;
@@ -121,6 +123,7 @@ h2{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    filter: drop-shadow(0 0 5vw #DF6C24);
     position: absolute;
     top:10vh;
     left:10vw;
@@ -131,10 +134,10 @@ h2{
 #quad1{
     position:absolute;
     margin: 0;
-    width: 30%;
-    height: 25%;
-    top: 20%;
-    left: 15%;
+    width: 35%;
+    height: 30%;
+    top: 15%;
+    left: 10%;
     background-color: 	rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -145,10 +148,10 @@ h2{
 #quad2{
     position: absolute;
     margin:0;
-    width: 30%;
-    height: 25%;
-    top: 20%;
-    right: 15%;
+    width: 35%;
+    height: 30%;
+    top: 15%;
+    right: 10%;
     background-color: 	rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -158,10 +161,10 @@ h2{
 #quad3{
     position: absolute;
     margin:0;
-    width: 30%;
-    height: 25%;
-    bottom: 20%;
-    left: 15%;
+    width: 35%;
+    height: 30%;
+    bottom: 15%;
+    left: 10%;
     background-color: 	rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -171,10 +174,10 @@ h2{
 #quad4{
     position: absolute;
     margin:0;
-    width: 30%;
-    height: 25%;
-    bottom: 20%;
-    right: 15%;
+    width: 35%;
+    height: 30%;
+    bottom: 15%;
+    right: 10%;
     background-color: 	rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
