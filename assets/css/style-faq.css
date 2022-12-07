@@ -1,0 +1,455 @@
+/* Stylesheet for faq which resizes based on wide,standard or compact/mobile resolutions*/
+
+/*Import Exo 2 font from google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+
+/* Remove all margins - they are the enemy and must be stopped*/
+
+*{
+    margin:0;
+}
+
+
+ body{
+    
+    font-family: 'Exo 2', sans-serif;
+    background-color: #000000;
+    /*hide overflow on x axis that show up due to transfomr animations*/
+    overflow-x: hidden;
+    
+}
+
+/* simple page divider  */
+.page-splitter{
+
+    width: 100vw;
+    height: 5vh;
+
+}
+
+/* Class for setting primary orangey/red color*/
+.font-color{
+    color: #DF6C24;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.center-div{
+    margin: 0 auto;
+}
+
+
+
+/* div than encompases entire page which alows for fade transition*/
+
+.full-page-div{
+    width: 100vw;
+    height:100vh;
+    animation-name: body-fade;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    background: url(../images/stars.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: repeat;
+
+}
+
+/* simple gradiant for header */
+.main-heading{
+    background: linear-gradient(180deg, rgba(62,146,204,1) 0%, rgba(0,0,0,0) 100%);
+    height:5vh;   
+}
+
+/* Container for nav elements*/
+.top-nav{
+    display: inline;
+    background: transparent;
+    float: right;
+    height: 5vh;    
+}
+
+#faq-background{
+    background-image: url(../images/faq-backdrop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+    width: 90vw;
+    height: 80vh;
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+    border-radius: 2vw;
+}
+
+p{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 5rem;
+    background-color: rgba(62,146,204,.5);
+    border-radius: 1rem;
+}
+
+summary{
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+#questions-container{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 30vw;
+    top: 20vh;
+}
+
+/* Rules for lower resolution mobile/tablet screens*/
+
+@media screen and (max-width: 1000px ){
+
+    /* simple page divider  */
+.page-splitter{
+
+    width: 100vw;
+    height: .5vh;
+
+}
+
+h1{
+    display: inline;
+    padding-left: 1rem;
+    line-height: 5vh;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: rgb(0, 0, 0) .1rem .1rem;
+}
+
+.logo-globe{
+    color: #DF6C24;
+    text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+    background: transparent;
+    font-size: 1.8rem;
+}
+
+h2{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: inherit;
+    text-align: center;
+}
+
+#faq-background{
+    background-image: url(../images/faq-backdrop-mobile.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: .5;
+    width: 90vw;
+    height: 80vh;
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+    border-radius: 2vw;
+}
+
+p{
+    color: #ffffff;
+    font-size: .5rem;
+    padding: 1rem;
+    background-color: rgba(62,146,204,.5);
+    border-radius: .5rem;
+}
+
+summary{
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+#questions-container{
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    top: 15vh;
+}
+
+
+/*Code for burger menu*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2vw;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+
+  .menu-button::before {
+    content: "";
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: "";
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+    .menu-button-container {
+      display: flex;
+    }
+    
+  
+    .menu {
+      position: absolute;
+      z-index: 200;
+      top: 0;
+      margin-top: 5vh;
+      right: 1vw;
+      flex-direction: column;
+      width: 90vw;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+  
+    #menu-toggle:checked ~ .menu li {
+      height: 2rem;
+      padding: 1rem;
+      transition: height 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+  
+    .menu > li {
+      display: flex;
+      justify-content:flex-end;
+      margin: 0;
+      padding-right: 20vw;
+      width: 100%;
+      font-size: 2rem;
+      text-decoration: none;
+      color: #ffffff;
+      background: linear-gradient(270deg, rgba(223,108,36,0) 0%, rgba(196,95,32,0.95) 5%, rgba(0,0,0,0.95) 60%, rgba(0,0,0,0) 100%);
+    }
+    .menu > li > a {
+        color: #ffffff;
+        text-decoration: none;
+        padding-right: 5vw;
+    }
+
+}
+
+@media screen and (min-width: 1000px ){
+
+    h1{
+        display: inline;
+        margin: auto 0;
+        padding-left: .5rem;
+        line-height: 5vh;
+        background: transparent;
+        color: white;
+        font-size: 2rem;
+        text-shadow: rgb(0, 0, 0) .1rem .1rem;
+    }
+    
+    .logo-globe{
+        color: #DF6C24;
+        text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+        background: transparent;
+        font-size: 2.2rem;
+    }
+
+    h2{
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        width: inherit;
+        text-align: center;
+    }
+    
+
+    /* Hide checkbox usesd for compact view nav burger*/
+    #menu-toggle{
+        display: none;
+    }
+    
+    li{
+        display: inline;
+        background: inherit;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        padding: .5rem;  
+    }
+
+
+    .menu *{
+        text-decoration: none;
+        list-style-type: none;
+        background: inherit;
+        margin: 0;
+        padding: 0;
+        color: white;
+        padding-right: 1rem;
+        line-height: 5vh;
+
+    }
+
+    .menu a:hover {
+        /* border-bottom:1px solid #DF6C24; */
+        text-shadow: 0 0 1rem #ffffff;
+        color:#DF6C24;
+
+    }
+
+
+}
+
+@media screen and (min-width: 1400px){
+
+    h1{
+        display: inline;
+        margin: auto 0;
+        padding-left: .5rem;
+        line-height: 5vh;
+        background: transparent;
+        color: white;
+        font-size: 2.5rem;
+        text-shadow: rgb(0, 0, 0) .1rem .1rem;
+    }
+    
+    .logo-globe{
+        color: #DF6C24;
+        text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+        background: transparent;
+        font-size: 2.8rem;
+    }
+
+    h2{
+        color: white;
+        font-size: 2.2rem;
+        font-weight: 600;
+        width: inherit;
+        text-align: center;
+    }
+    
+    li{
+        display: inline;
+        background: inherit;
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+        padding: .5rem;  
+    }
+
+
+    .menu *{
+        text-decoration: none;
+        list-style-type: none;
+        background: inherit;
+        margin: 0;
+        padding: 0;
+        color: white;
+        padding-right: 1rem;
+        line-height: 5vh;
+
+    }
+
+
+}
+
+
+
+
+/* Simple 3d rotate on x axis of globe icon */
+
+.logo-globe-spin{
+    animation-name: spinny;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes spinny{
+    from{
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    to{
+        transform: rotate3d(0, 1, 0, 180deg); 
+    }
+}
+
+/* fade for the entire page */
+
+@keyframes body-fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+
