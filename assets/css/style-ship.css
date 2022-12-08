@@ -126,7 +126,6 @@ p{
     color: #ffffff;
     padding: .5rem;
     font-size: 1rem;
-    text-align: center;
 }
 
 
@@ -137,7 +136,6 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: .5;
     width: 90vw;
     height: 80vh;
     top: 7vh;
@@ -147,26 +145,25 @@ p{
 
 #ship-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .9);
+    background-color: rgba(62, 146, 204, .6);
     z-index: 60;
     width: 45vw;
     height: 40vh;
     top: 25vh;
-    left: 55vw;
+    left: 50vw;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #ship-details p{
     font-size: .5rem;
-    padding: .1rem;
-    padding-left: .2rem;
+    padding: .1rem .5rem .1rem .5rem;
 }
 
 #ship-details h2{
     font-size: .8rem;
     color: #ffffff;
-    padding-left: .2rem;
+    padding: .1rem .5rem .1rem .5rem;
 }
 
 #colony-ship-background{
@@ -177,7 +174,6 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
     width: 80vw;
     height: 80vh;
     top: 87vh;
@@ -188,7 +184,7 @@ p{
 
 #colony-ship-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .9);
+    background-color: rgba(62, 146, 204, .6);
     z-index: 60;
     width: 45vw;
     height: 40vh;
@@ -200,14 +196,13 @@ p{
 
 #colony-ship-details p{
     font-size: .5rem;
-    padding: .1rem;
-    padding-left: .5rem;
+    padding: .1rem .5rem .1rem .5rem;
 }
 
 #colony-ship-details h2{
     font-size: .8rem;
     color: #ffffff;
-    padding-left: .2rem;
+    padding: .1rem .5rem .1rem .5rem;
 }
 
 
@@ -402,9 +397,8 @@ p{
     
     p{
         color: #ffffff;
-        padding: 1rem;
+        padding: .1rem .5rem .1rem .5rem;
         font-size: 2rem;
-        text-align: center;
     }
 
     #ship-background{
@@ -414,7 +408,6 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        opacity: .5;
         width: 45vw;
         height: 80vh;
         top: 10vh;
@@ -436,14 +429,13 @@ p{
 
     #ship-details p{
         font-size: .8rem;
-        padding: .2rem;
-        padding-left: 1rem;
+        padding: .1rem .5rem .1rem .5rem;
     }
 
     #ship-details h2{
         font-size: 1.5rem;
         color: #ffffff;
-        padding-left: 1rem;
+        padding: .1rem .5rem .1rem .5rem;
     }
 
     #colony-ship-background{
@@ -454,7 +446,6 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        opacity: 1;
         width: 45vw;
         height: 80vh;
         top: 10vh;
@@ -477,14 +468,13 @@ p{
 
     #colony-ship-details p{
         font-size: .8rem;
-        padding: .2rem;
-        padding-left: 1rem;
+        padding: .1rem .5rem .1rem .5rem;
     }
 
     #colony-ship-details h2{
         font-size: 1.5rem;
         color: #ffffff;
-        padding-left: 1rem;
+        padding: .1rem .5rem .1rem .5rem;
     }
 
     
