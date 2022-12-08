@@ -1,4 +1,4 @@
-/* Stylesheet for main.html which resizes based on wide,standard or compact/mobile resolutions*/
+/* Stylesheet for ship.html which resizes based on wide,standard or compact/mobile resolutions*/
 
 /*Import Exo 2 font from google fonts*/
 
@@ -13,7 +13,10 @@
  body{
     
     font-family: 'Exo 2', sans-serif;
-    background-color: #000000;
+    background: url(../images/stars.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: repeat;
     /*hide overflow on x axis that show up due to transfomr animations*/
     overflow-x: hidden;
     
@@ -113,106 +116,103 @@ h1{
 
 h2{
     color: white;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 600;
     width: inherit;
     text-align: center;
 }
 
-.mission-overview{
-    animation-name: slide-in-right;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    display: block;
-    padding-left: 5vw;
-    padding-right: 5vw;  
-}
-
-.mission-overview p{
-    color: rgb(255, 255, 255);
+p{
+    color: #ffffff;
+    padding: .5rem;
     font-size: 1rem;
-    text-align: left; 
-}
-
-.mission-image-container{
-    animation-name: slide-in-left;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    width:90vw;
-    padding: 5vw;
-    height: fit-content;   
-}
-
-.mission-image{
-    margin: 0 auto;
-    width: 90vw;
-    height:90vw;
-    background-image: url(../images/inspire_reduce_circle.webp);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    filter: drop-shadow(0 0 5vw #DF6C24);
-}
-
-.founder-message{
-    
-    animation-name: slide-in-left;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: both;
-    /* background: rgba(62,146,204,.2); */
-    display: block;
-    padding: 5vw;
-}
-
-.founder-message p{
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    text-align: left; 
-}
-
-.founder-image-container{
-    animation-name: slide-in-right;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: both;
-    /* background: rgba(62,146,204,.2); */
-    display: block;
-    width: 90vw;
-    padding: 5vw;
-    height: fit-content;   
-}
-
-.founder-image{
-    /* margin: 0 auto; */
-    width: 45vw;
-    height:45vw;
-    display: inline;
-    float: left; 
-    background-image: url(../images/founder-trans-background.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    filter: drop-shadow(0 0 1vw #ffffff);
-}
-.starseed-logo{
-    /* margin: 0 auto; */
-    width: 45vw;
-    height: 45vw;
-    display: inline;
-    float: right;
-    background-image: url(../images/starseed2-redder-circle.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.founder-title{
-    font-style: italic;
-    font-size: .5rem;
     text-align: center;
-    color: rgb(255, 255, 255);
 }
+
+
+#ship-background{
+    position: absolute;
+    z-index: 50;
+    background-image: url(../images/lauch-ship-lower-res-compressed.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5;
+    width: 90vw;
+    height: 80vh;
+    top: 7vh;
+    left: 5vw;
+    filter: drop-shadow(0 0 1rem #ffffff);
+}
+
+#ship-details{
+    position: absolute;
+    background-color: rgba(62, 146, 204, .9);
+    z-index: 60;
+    width: 45vw;
+    height: 40vh;
+    top: 25vh;
+    left: 55vw;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#ship-details p{
+    font-size: .5rem;
+    padding: .1rem;
+    padding-left: .2rem;
+}
+
+#ship-details h2{
+    font-size: .8rem;
+    color: #ffffff;
+    padding-left: .2rem;
+}
+
+#colony-ship-background{
+
+    position: absolute;
+    z-index: 50;
+    background-image: url(../images/Jugga-1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    width: 80vw;
+    height: 80vh;
+    top: 87vh;
+    left: 5vw;
+    filter: drop-shadow(0 0 1rem #ffffff);
+
+}
+
+#colony-ship-details{
+    position: absolute;
+    background-color: rgba(62, 146, 204, .9);
+    z-index: 60;
+    width: 45vw;
+    height: 40vh;
+    top: 115vh;
+    left: 50vw;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#colony-ship-details p{
+    font-size: .5rem;
+    padding: .1rem;
+    padding-left: .5rem;
+}
+
+#colony-ship-details h2{
+    font-size: .8rem;
+    color: #ffffff;
+    padding-left: .2rem;
+}
+
+
+
+
 
 /*Code for burger menu*/
 
@@ -358,7 +358,8 @@ h2{
         text-align: center;
     }
 
-    /* Hide checkbox usesd for compact view nav burger*/
+
+    /* Hide checkbox used for compact view nav burger*/
     #menu-toggle{
         display: none;
     }
@@ -391,112 +392,102 @@ h2{
 
     }
 
-    .mission-overview{
-        animation-name: slide-in-right;
-        animation-duration: 3s;
-        animation-fill-mode: both;
-        display: inline;
-        float: left;
-        width:50%;
-        height: 40vh;   
+    h2{
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+        width: inherit;
+        text-align: center;
+    }
+    
+    p{
+        color: #ffffff;
+        padding: 1rem;
+        font-size: 2rem;
+        text-align: center;
     }
 
-    .mission-overview p{
-        color: rgb(255, 255, 255);
-        font-size: 1rem;
-        padding-left: 5%;
-        text-align: left; 
-    }
-    
-    .mission-image-container{
-        animation-name: slide-in-left;
-        animation-duration: 3s;
-        animation-fill-mode: both;
-        display: inline;
-        float: right;
-        width:50%;
-        height: 40vh;   
-    }
-    
-    .mission-image{
-        margin: 0 auto;
-        aspect-ratio: 1;
-        width: inherit;
-        height: inherit;
-        background-image: url(../images/inspire_reduce_circle.webp);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-position: center;
-        filter: drop-shadow(0 0 5vw #DF6C24);
-    }
-    
-    
-    
-    .founder-message{
-        
-        animation-name: slide-in-left;
-        animation-duration: 3s;
-        animation-delay: 3s;
-        animation-fill-mode: both;
-        /* background: rgba(62,146,204,.2); */
-        display: inline;
-        float: right;
-        width:50%;
-        height: 40vh;
-    }
-    
-    .founder-message p{
-        color: rgb(255, 255, 255);
-        font-size: 1rem;
-        padding-right: 5%;
-        text-align: left; 
-    }
-    
-    
-    
-    .founder-image-container{
-        animation-name: slide-in-right;
-        animation-duration: 3s;
-        animation-delay: 3s;
-        animation-fill-mode: both;
-        /* background: rgba(62,146,204,.2); */
-        display: inline;
-        float: left;
-        width:50%;
-        height: 40vh;   
-    }
-    
-    .founder-image{
-        margin: 0 auto;
-        width: inherit;
-        display: inline;
-        float:right;
-        height: 95%; 
-        background-image: url(../images/founder-trans-background.png);
-        background-repeat: no-repeat;
+    #ship-background{
+        position: absolute;
+        z-index: 50;
+        background-image: url(../images/lauch-ship-lower-res-compressed.webp);
         background-size: contain;
-        background-position: center;
-        filter: drop-shadow(0 0 1vw #ffffff);
-    }
-    .starseed-logo{
-        margin: 0 auto;
-        width: inherit;
-        display: inline;
-        float:left;
-        height: 95%; 
-        background-image: url(../images/starseed2-redder-circle.webp);
         background-repeat: no-repeat;
-        background-size: contain;
         background-position: center;
-        
+        opacity: .5;
+        width: 45vw;
+        height: 80vh;
+        top: 10vh;
+        left: 2.5vw;
+        filter: drop-shadow(0 0 1rem #ffffff);
     }
+
+    #ship-details{
+        position: absolute;
+        background-color: rgba(62, 146, 204, .9);
+        z-index: 60;
+        width: 15vw;
+        height: 50vh;
+        top: 25vh;
+        left: 30vw;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #ship-details p{
+        font-size: .8rem;
+        padding: .2rem;
+        padding-left: 1rem;
+    }
+
+    #ship-details h2{
+        font-size: 1.5rem;
+        color: #ffffff;
+        padding-left: 1rem;
+    }
+
+    #colony-ship-background{
+
+        position: absolute;
+        z-index: 50;
+        background-image: url(../images/Jugga-1.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        width: 45vw;
+        height: 80vh;
+        top: 10vh;
+        left: 45vw;
+        filter: drop-shadow(0 0 1rem #ffffff);
+
+    }
+
+    #colony-ship-details{
+        position: absolute;
+        background-color: rgba(62, 146, 204, .9);
+        z-index: 60;
+        width: 15vw;
+        height: 50vh;
+        top: 25vh;
+        left: 75vw;
+        border-radius: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    #colony-ship-details p{
+        font-size: .8rem;
+        padding: .2rem;
+        padding-left: 1rem;
+    }
+
+    #colony-ship-details h2{
+        font-size: 1.5rem;
+        color: #ffffff;
+        padding-left: 1rem;
+    }
+
     
-    .founder-title{
-        font-style: italic;
-        font-size: .5rem;
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
 
 }
 
@@ -535,6 +526,7 @@ h2{
         letter-spacing: .1rem;
         padding: .5rem;  
     }
+    
 
 
     .menu *{
@@ -549,26 +541,7 @@ h2{
 
     }
 
-    .mission-overview p{
-        color: rgb(255, 255, 255);
-        font-size: 1.8rem;
-        padding-left: 5%;
-        text-align: left; 
-    }
 
-    .founder-message p{
-        color: rgb(255, 255, 255);
-        font-size: 1.8rem;
-        padding-right: 5%;
-        text-align: left; 
-    }
-
-    .founder-title{
-        font-style: italic;
-        font-size: 1rem;
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
 
 }
 
@@ -605,26 +578,6 @@ h2{
     }
 }
 
-/*Animation to slide in element from off screen right*/
 
-@keyframes slide-in-right{
-    from{
-        transform: translateX(-100vw);
-    }
-    to{
-        transform:unset;
-    }
-}
-
-/*Animation to slide in element from off screen left*/
-
-@keyframes slide-in-left{
-    from{
-        transform: translateX(+100vw);
-    }
-    to{
-        transform:unset;
-    }
-}
 
 

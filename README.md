@@ -1,6 +1,9 @@
 
 # Mars Colony One
 ## **Site Overview**
+
+This site is a demo of my abilities in HTML and CSS
+
 The site is designed for a fictional company called StarSeed industries, who are a market leader in space exploration.
 The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
 The objective of the site is to capture the attention of possible colonists, provide details about the mission, and collect contact information from visitors that wish to apply.
@@ -43,11 +46,9 @@ The objective of the site is to capture the attention of possible colonists, pro
 
 * Users interested in space travel 
 * Users interested in new work oppertunities
-* Users interested in a new challange
+* Users interested in a new life challange
 ​
 ### **User Stories:**
-​
-User stories are more what the user wants from the site in terms of features and presentation
 ​
 * As a user, I want to quickly understand the subject and how it relates to me
 * As a user, I want to navigate through content easily
@@ -56,15 +57,15 @@ User stories are more what the user wants from the site in terms of features and
 ​
 ### **Site Aims:**
 ​
-* To trigger an interest in Mars with the user
-* To make the user understand the mission to colonise mars
+* To trigger an interest in joining a colony on Mars
+* To help the user understand the mission to colonise mars
 * To provide key details about the mission and what to expect
 * To get contact information from the user for future recruitment
 ​
 ​
 ### **Wireframes:**
 ​
-Wireframes were built in Balsamiq as a foundation but there has been an organic evolution of the desing during construction of the site and testing across the different devices
+Wireframes were built in Balsamiq as a foundation but there has been an organic evolution of the desing during construction of the site and testing across the different devices I had available
 Orgininal wireframs in PDF here
 ​
 ### **Color Scheme:**
@@ -87,6 +88,7 @@ Arial is used in other areas
 
 The page logo embraces a simple sci-fi astectic
 Using Exo 2 font to look modern/futurist while still highly readable.
+I used a transition on a globe icon to act as the "O" in One. This globe icon is used throughout the sites images as an anchor to build fimiliiarty
 #### *Navigation Bar:*
 This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
 ​
