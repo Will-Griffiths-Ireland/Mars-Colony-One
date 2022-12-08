@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
+/*Intro page for manin site- desinged to draw the visitor into the experience*/
+
+/*page is desinged with a stepdown in font sizes for smaller screens*/
 
 body {
     background-color: black;
@@ -15,11 +18,8 @@ body {
     font-size: 3rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     .font-style{
-        z-index: 10;
-        text-align: center;
-        color: rgba(0,0,0,0);
         font-size: 1rem ;
     }
 
@@ -125,7 +125,7 @@ a{color: inherit;}
     font-size: 4rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
 
     .text-in-4{
         position: absolute;
@@ -218,7 +218,7 @@ a{color: inherit;}
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     
     .text-in-5{
         position: absolute;
@@ -296,7 +296,7 @@ a{color: inherit;}
     
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     .text-in-6{
     position: absolute;
     top: 60vh;
