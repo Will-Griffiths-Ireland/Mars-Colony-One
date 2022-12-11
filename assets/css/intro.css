@@ -196,18 +196,7 @@ a{color: inherit;}
     animation-fill-mode:forwards
 
 }
-@keyframes spinny{
-    from{
-        transform: rotate3d(0, 1, 0, 0deg);
-        color: rgba(223, 108, 36, 1);
-        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
-    }
-    to{
-        transform: rotate3d(0, 1, 0, 180deg);
-        color: rgba(223, 108, 36, 1);
-        text-shadow: 0 0 1rem rgba(0, 0, 0, 1); 
-    }
-}
+
 
 
 @media screen and (max-width:1000px) {
@@ -401,4 +390,18 @@ a{color: inherit;}
     }
 
     
+}
+/*spin logo globe icon*/
+
+@keyframes spinny{
+    from{
+        transform: rotate3d(0, 1, 0, 0deg);
+        color: rgba(223, 108, 36, 1);
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    }
+    to{
+        transform: rotate3d(0, 1, 0, 180deg);
+        color: rgba(223, 108, 36, 1);
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1); 
+    }
 }

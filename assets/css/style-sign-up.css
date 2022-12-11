@@ -106,7 +106,7 @@ h1{
 
 .logo-globe{
     color: #DF6C24;
-    text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     background: transparent;
     font-size: 1.8rem;
 }
@@ -349,7 +349,7 @@ input:hover{
     
     .logo-globe{
         color: #DF6C24;
-        text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
         background: transparent;
         font-size: 2.2rem;
     }
@@ -503,7 +503,7 @@ input:hover{
     
     .logo-globe{
         color: #DF6C24;
-        text-shadow: rgb(255, 166, 0) 0 0 .1rem;
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
         background: transparent;
         font-size: 2.8rem;
     }
@@ -548,7 +548,6 @@ input:hover{
 
 .logo-globe-spin{
     animation-name: spinny;
-    animation-delay: 3s;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
@@ -557,9 +556,13 @@ input:hover{
 @keyframes spinny{
     from{
         transform: rotate3d(0, 1, 0, 0deg);
+        color: rgba(223, 108, 36, 1);
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     }
     to{
-        transform: rotate3d(0, 1, 0, 180deg); 
+        transform: rotate3d(0, 1, 0, 180deg);
+        color: rgba(223, 108, 36, 1);
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1); 
     }
 }
 
