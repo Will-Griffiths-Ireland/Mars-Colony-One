@@ -145,14 +145,12 @@ p{
 
 #trip-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .3);
     z-index: 60;
-    width: 90vw;
+    width: 75vw;
     height: 30vh;
     top: 37vh;
-    left: 5vw;
+    left: 1vw;
     border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #trip-details p{
@@ -182,7 +180,24 @@ p{
 }
 
 #jagger1{
-    display: none;
+    position: absolute;
+        z-index: 80;
+        opacity: 0;
+        background-image: url(../images/jagger-scanid.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        top: 30vh;
+        left: 15vw;
+        width:10vw;
+        height: 10vw; /* deliberatly setting height to width to maintain 1:1 scaling of image*/
+        animation: jagger-move-mobile;
+        animation-iteration-count: infinite;
+        animation-fill-mode:both;
+        animation-direction: normal;
+        animation-delay: 2s;
+        animation-duration: 20s;
+        animation-timing-function:ease-in-out
 }
 
 
@@ -398,23 +413,21 @@ p{
     
     #trip-details{
         position: absolute;
-        background-color: rgba(62, 146, 204, .3);
         z-index: 60;
         width: 30vw;
-        height: 30vh;
+        height: 40vh;
         top: 30vh;
         left: 35vw;
         border-radius: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
     
     #trip-details p{
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: .1rem .5rem .1rem .5rem;
     }
     
     #trip-details h2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: #ffffff;
         padding: .1rem .5rem .1rem .5rem;
     }
@@ -568,6 +581,32 @@ p{
         top:30vh;
         left: 85vw;
         opacity: 0;
+
+    }
+}
+@keyframes jagger-move-mobile{
+    from{
+        opacity: 0;
+        top: 25vh;
+        left: 50vw;
+    }
+    10%{
+        opacity: 1;
+        top:35vh;
+        left: 80vw;
+    }
+    
+    90%{
+        opacity: 1;
+        top:59vh;
+        left: 80vw;
+        scale: 1;
+    }
+    100%{
+        top:75vh;
+        left: 50vw;
+        opacity: 0;
+        scale: 0;
 
     }
 }
