@@ -102,11 +102,10 @@ summary{
 
 #questions-container{
     position: absolute;
-    width: 60vw;
+    width: 90vw;
     height: auto;
     margin-left: 10vw;
-    margin-right: 30vw;
-    top: 20vh;
+    top: 15vh;
 }
 
 /* Rules for lower resolution mobile/tablet screens*/
@@ -140,9 +139,11 @@ h1{
 
 h2{
     color: white;
+    margin: 0;
     font-size: 1.2rem;
     font-weight: 600;
-    width: inherit;
+    width: 80vw;
+    left: 10vw;
     text-align: center;
 }
 
@@ -151,7 +152,7 @@ h2{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    opacity: .5;
+    opacity: .5 ;
     width: 90vw;
     height: 80vh;
     position: fixed;
@@ -322,10 +323,26 @@ summary{
 
     h2{
         color: white;
-        font-size: 2rem;
+        margin: 0;
+        font-size: 1.8rem;
         font-weight: 600;
-        width: inherit;
+        width: 80vw;
+        left: 10vw;
         text-align: center;
+    }
+
+    p{
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 1rem;
+        background-color: rgba(62,146,204,.5);
+        border-radius: .5rem;
+    }
+    
+    summary{
+        color: #ffffff;
+        font-size: 1rem;
+        padding: .5rem;
     }
     
 
@@ -387,10 +404,26 @@ summary{
 
     h2{
         color: white;
-        font-size: 2.2rem;
+        margin: 0;
+        font-size: 2.5rem;
         font-weight: 600;
-        width: inherit;
+        width: 80vw;
+        left: 10vw;
         text-align: center;
+    }
+
+    p{
+        color: #ffffff;
+        font-size: 1.5rem;
+        padding: 1rem;
+        background-color: rgba(62,146,204,.5);
+        border-radius: .5rem;
+    }
+    
+    summary{
+        color: #ffffff;
+        font-size: 1.5rem;
+        padding: .5rem;
     }
     
     li{
