@@ -457,8 +457,8 @@ p{
         background-position: center;
         top: 30vh;
         left: 15vw;
-        width:10vw;
-        height: 10vw; /* deliberatly setting height to width to maintain 1:1 scaling of image*/
+        width:20vw;
+        height: 20vw; /* deliberatly setting height to width to maintain 1:1 scaling of image*/
         animation: jagger-move;
         animation-iteration-count: infinite;
         animation-fill-mode:both;
