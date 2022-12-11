@@ -129,81 +129,62 @@ p{
 }
 
 
-#ship-background{
+#earth-container{
     position: absolute;
     z-index: 50;
-    background-image: url(../images/lauch-ship-lower-res-compressed.webp);
+    background-image: url(../images/earth-lowres.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 90vw;
-    height: 80vh;
-    top: 7vh;
+    height: 30vh;
+    top: 5vh;
     left: 5vw;
-    filter: drop-shadow(0 0 1rem #ffffff);
+    filter: drop-shadow(0 0 2vw #afbfec);
 }
 
-#ship-details{
+#trip-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .6);
+    background-color: rgba(62, 146, 204, .3);
     z-index: 60;
-    width: 45vw;
-    height: 40vh;
-    top: 25vh;
-    left: 50vw;
+    width: 90vw;
+    height: 30vh;
+    top: 37vh;
+    left: 5vw;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-#ship-details p{
+#trip-details p{
     font-size: .5rem;
     padding: .1rem .5rem .1rem .5rem;
 }
 
-#ship-details h2{
+#trip-details h2{
     font-size: .8rem;
     color: #ffffff;
     padding: .1rem .5rem .1rem .5rem;
 }
 
-#colony-ship-background{
+#mars-container{
 
-    position: absolute;
-    z-index: 50;
-    background-image: url(../images/jagger1-fullres.webp);
-    background-size: contain;
+    background-image: url(../images/mars-intro-1000.webp);
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
-    width: 80vw;
-    height: 80vh;
-    top: 87vh;
-    left: 5vw;
-    filter: drop-shadow(0 0 1rem #ffffff);
-
-}
-
-#colony-ship-details{
+    filter: drop-shadow(0 0 2vw #DF6C24);
     position: absolute;
-    background-color: rgba(62, 146, 204, .6);
-    z-index: 60;
-    width: 45vw;
-    height: 40vh;
-    top: 115vh;
-    left: 50vw;
-    border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    top:69vh;
+    left:5vw;
+    width: 90vw;
+    height: 30vh;
+
 }
 
-#colony-ship-details p{
-    font-size: .5rem;
-    padding: .1rem .5rem .1rem .5rem;
+#jagger1{
+    display: none;
 }
 
-#colony-ship-details h2{
-    font-size: .8rem;
-    color: #ffffff;
-    padding: .1rem .5rem .1rem .5rem;
-}
 
 
 
@@ -401,80 +382,78 @@ p{
         font-size: 2rem;
     }
 
-    #ship-background{
+    #earth-container{
         position: absolute;
         z-index: 50;
-        background-image: url(../images/lauch-ship-lower-res-compressed.webp);
+        background-image: url(../images/earth-lowres.webp);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 45vw;
-        height: 80vh;
-        top: 10vh;
-        left: 2.5vw;
-        filter: drop-shadow(0 0 1rem #ffffff);
+        width: 30vw;
+        height: 30vh;
+        top: 30vh;
+        left: 2vw;
+        filter: drop-shadow(0 0 2vw #afbfec);
     }
-
-    #ship-details{
+    
+    #trip-details{
         position: absolute;
-        background-color: rgba(62, 146, 204, .9);
+        background-color: rgba(62, 146, 204, .3);
         z-index: 60;
-        width: 20vw;
-        height: 50vh;
-        top: 25vh;
-        left: 30vw;
+        width: 30vw;
+        height: 30vh;
+        top: 30vh;
+        left: 35vw;
         border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
-
-    #ship-details p{
-        font-size: .8rem;
+    
+    #trip-details p{
+        font-size: 1rem;
         padding: .1rem .5rem .1rem .5rem;
     }
-
-    #ship-details h2{
+    
+    #trip-details h2{
         font-size: 1.5rem;
         color: #ffffff;
         padding: .1rem .5rem .1rem .5rem;
     }
-
-    #colony-ship-background{
-
-        position: absolute;
-        z-index: 50;
-        background-image: url(../images/jagger1-fullres.webp);
-        background-size: contain;
+    
+    #mars-container{
+    
+        background-image: url(../images/mars-intro-1000.webp);
         background-repeat: no-repeat;
+        background-size: contain;
         background-position: center;
-        width: 45vw;
-        height: 80vh;
-        top: 10vh;
-        left: 45vw;
-        filter: drop-shadow(0 0 1rem #ffffff);
-
-    }
-
-    #colony-ship-details{
+        filter: drop-shadow(0 0 2vw #DF6C24);
         position: absolute;
-        background-color: rgba(62, 146, 204, .9);
-        z-index: 60;
-        width: 20vw;
-        height: 50vh;
-        top: 25vh;
-        left: 75vw;
-        border-radius: 1rem;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        top:30vh;
+        left:67vw;
+        width: 30vw;
+        height: 30vh;
+    
     }
 
-    #colony-ship-details p{
-        font-size: .8rem;
-        padding: .1rem .5rem .1rem .5rem;
-    }
+    #jagger1{
+        position: absolute;
+        z-index: 80;
+        opacity: 0;
+        background-image: url(../images/jagger-scanid.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        top: 30vh;
+        left: 15vw;
+        width:10vw;
+        height: 10vw; /* deliberatly setting height to width to maintain 1:1 scaling of image*/
+        animation: jagger-move;
+        animation-iteration-count: infinite;
+        animation-fill-mode:both;
+        animation-direction: normal;
+        animation-delay: 2s;
+        animation-duration: 20s;
+        animation-timing-function:ease-in-out
 
-    #colony-ship-details h2{
-        font-size: 1.5rem;
-        color: #ffffff;
-        padding: .1rem .5rem .1rem .5rem;
     }
 
     
@@ -565,6 +544,31 @@ p{
     }
     to{
         opacity: 1;
+    }
+}
+
+@keyframes jagger-move{
+    from{
+        opacity: 0;
+        top: 30vh;
+        left: 10vw;
+    }
+    10%{
+        opacity: 1;
+        top:10vh;
+        left: 20vw;
+    }
+    
+    90%{
+        opacity: 1;
+        top:10vh;
+        left: 80vw;
+    }
+    100%{
+        top:30vh;
+        left: 85vw;
+        opacity: 0;
+
     }
 }
 

@@ -10,10 +10,11 @@ body {
     margin: 0;
     background: url(../images/stars.png);
     background-position: center;
-    background-size:auto;
+    background-size:initial;
     background-repeat: repeat;
     
 }
+
 
 .font-style{
     z-index: 10;
@@ -25,9 +26,7 @@ body {
 @media screen and (max-width:1000px) {
     .font-style{
         font-size: 1rem ;
-    }
-
-    
+    } 
 }
 
 a{color: inherit;}
@@ -132,18 +131,6 @@ a{color: inherit;}
 @media screen and (max-width:1000px) {
 
     .text-in-4{
-        position: absolute;
-        top: 45vh;
-        display: block;
-        width: 100vw;
-        text-align: center;
-        animation-delay: 13s;
-        animation-duration: 4s;
-        animation-name: text-fade-in-out;
-        animation-fill-mode: forwards;
-        z-index: 10;
-        text-align: center;
-        color: rgba(0,0,0,0);
         font-size: 2rem;
     }
 
@@ -154,9 +141,8 @@ a{color: inherit;}
     top: 60vh;
     text-align: center;
     display: block;
-    width: 50vw;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    width: 70vw;
+    left:15vw;
     z-index: 10;
     text-align: center;
     color: rgba(0,0,0,0);
@@ -234,8 +220,7 @@ a{color: inherit;}
         color: rgba(0,0,0,0);
         font-size: 1rem;
         width: 80vw;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        left:10vw;
         animation-delay: 20s;
         animation-duration: 4s;
         animation-name: text-fade-in;
@@ -290,11 +275,11 @@ a{color: inherit;}
     position:absolute;
     top: 70vh;
     /* display: block; */
-    left: calc(50vw - 3rem);
+    left: calc(50vw - 2rem);
     transform:rotate(-45deg); /*rotating icon to point upwards */
     z-index: 10;
     color: rgba(0,0,0,0);
-    font-size: 6rem;
+    font-size: 4rem;
     animation-delay: 24s;
     animation-duration: 6s;
     animation-name: rocket-fade-in;
