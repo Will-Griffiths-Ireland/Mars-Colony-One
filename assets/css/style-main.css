@@ -40,6 +40,18 @@
     margin: 0 auto;
 }
 
+/* styling for body nav link to next relevant page*/
+
+.link{
+    font-size: inherit;
+    display: inline;
+    text-decoration: none;
+    color: #DF6C24;
+}
+.link:hover{
+    color: rgb(62,146,204);
+}
+
 /*class to apply simple flex to align content of div*/
 
 .flex-helper{
@@ -103,6 +115,10 @@ h1{
     font-size: 1.8rem;
 }
 
+.flex-helper{
+    width: 90vw;
+}
+
 h2{
     color: white;
     font-size: 1.2rem;
@@ -154,6 +170,7 @@ h2{
     animation-fill-mode: both;
     /* background: rgba(62,146,204,.2); */
     display: block;
+    width: 90vw;
     padding: 5vw;
 }
 
@@ -543,21 +560,21 @@ h2{
 
     .mission-overview p{
         color: rgb(255, 255, 255);
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         padding-left: 5%;
         text-align: left; 
     }
 
     .founder-message p{
         color: rgb(255, 255, 255);
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         padding-right: 5%;
         text-align: left; 
     }
 
     .founder-title{
         font-style: italic;
-        font-size: 1rem;
+        font-size: .5rem;
         text-align: center;
         color: rgb(255, 255, 255);
     }
