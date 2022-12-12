@@ -8,7 +8,7 @@ The site is designed for a fictional company called StarSeed industries, who are
 The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
 The objective of the site is to capture the attention of possible colonists, provide details about the mission, and collect contact information from visitors that wish to apply.
 ​
-![Am I responsive screenshot](imagelocation so maybe docs/image.jpg)
+![Intro Page](./docs/images/intro-page-amir-trans.webp)
 
 #### [The live website is here](https://will-griffiths-ireland.github.io/Mars-Colony-One/)​
 
