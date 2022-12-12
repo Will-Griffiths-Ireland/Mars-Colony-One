@@ -34,7 +34,7 @@ a{color: inherit;}
 .skippy{
     position: absolute;
     width: 100vw;
-    bottom: 0;
+    bottom: 5vh;
     z-index: 300;
     display: block;
 }

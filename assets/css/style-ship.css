@@ -43,6 +43,34 @@
     margin: 0 auto;
 }
 
+.link{
+    font-size: inherit;
+    display: inline;
+    text-decoration: none;
+    color: #DF6C24;
+}
+
+.link:hover{
+    color: rgb(62,146,204);
+}
+
+#best-tech{
+    position: absolute;
+    width:100vw;
+    top:6vh;
+    z-index: 100;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#next-page{
+    position: relative;
+    width:100vw;
+    top:175vh;
+    z-index: 100;
+
+}
+
 /*class to apply simple flex to align content of div*/
 
 .flex-helper{
@@ -97,6 +125,17 @@
 
 }
 
+/*class to apply simple flex to align content of div*/
+
+.flex-helper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-items: center;
+    justify-content:center;
+    align-content:center;
+}
+
 h1{
     display: inline;
     padding-left: 1rem;
@@ -116,7 +155,7 @@ h1{
 
 h2{
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
     width: inherit;
     text-align: center;
@@ -137,33 +176,32 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     width: 90vw;
-    height: 80vh;
-    top: 7vh;
-    left: 5vw;
+    left:5vw;
+    height: 40vh;
+    top: 12vh;
     filter: drop-shadow(0 0 1rem #ffffff);
 }
 
 #ship-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .6);
     z-index: 60;
-    width: 45vw;
-    height: 40vh;
-    top: 25vh;
-    left: 50vw;
-    border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 90vw;
+    height: 35vh;
+    top: 52vh; 
+    left: 5vw;
 }
 
 #ship-details p{
+    text-align: center;
     font-size: .5rem;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .5rem .5rem .1rem .5rem;
 }
 
 #ship-details h2{
+    text-align: center;
     font-size: .8rem;
     color: #ffffff;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .1rem .5rem .8rem .5rem;
 }
 
 #colony-ship-background{
@@ -174,9 +212,9 @@ p{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 80vw;
-    height: 80vh;
-    top: 87vh;
+    width: 90vw;
+    top:87vh;
+    height: 40vh;
     left: 5vw;
     filter: drop-shadow(0 0 1rem #ffffff);
 
@@ -184,30 +222,25 @@ p{
 
 #colony-ship-details{
     position: absolute;
-    background-color: rgba(62, 146, 204, .6);
     z-index: 60;
-    width: 45vw;
+    width: 90vw;
+    top:137vh;
     height: 40vh;
-    top: 115vh;
-    left: 50vw;
-    border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    left: 5vw;
 }
 
 #colony-ship-details p{
+    text-align: center;
     font-size: .5rem;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .1rem .5rem .5rem .5rem;
 }
 
 #colony-ship-details h2{
+    text-align: center;
     font-size: .8rem;
     color: #ffffff;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .8rem .5rem .8rem .5rem;
 }
-
-
-
-
 
 /*Code for burger menu*/
 
@@ -392,7 +425,7 @@ p{
         font-size: 3rem;
         font-weight: 600;
         width: inherit;
-        text-align: center;
+        text-align: left;
     }
     
     p{
@@ -408,7 +441,7 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 45vw;
+        width: 20vw;
         height: 80vh;
         top: 10vh;
         left: 2.5vw;
@@ -417,25 +450,25 @@ p{
 
     #ship-details{
         position: absolute;
-        background-color: rgba(62, 146, 204, .9);
+        /* background-color: rgba(62, 146, 204, .2); */
         z-index: 60;
         width: 20vw;
         height: 50vh;
         top: 25vh;
-        left: 30vw;
+        left: 25vw;
         border-radius: 1rem;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
     #ship-details p{
-        font-size: .8rem;
-        padding: .1rem .5rem .1rem .5rem;
+        font-size: 1rem;
+        padding: .5rem 1rem .5rem 1rem;
     }
 
     #ship-details h2{
         font-size: 1.5rem;
         color: #ffffff;
-        padding: .1rem .5rem .1rem .5rem;
+        padding: .5rem 1.5rem 1.5rem 1rem;
     }
 
     #colony-ship-background{
@@ -446,17 +479,17 @@ p{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 45vw;
-        height: 80vh;
-        top: 10vh;
-        left: 45vw;
+        width: 20vw;
+        height: 70vh;
+        top: 15vh;
+        left: 50vw;
         filter: drop-shadow(0 0 1rem #ffffff);
 
     }
 
     #colony-ship-details{
         position: absolute;
-        background-color: rgba(62, 146, 204, .9);
+        /* background-color: rgba(62, 146, 204, .2); */
         z-index: 60;
         width: 20vw;
         height: 50vh;
@@ -467,16 +500,25 @@ p{
     }
 
     #colony-ship-details p{
-        font-size: .8rem;
-        padding: .1rem .5rem .1rem .5rem;
+        font-size: 1rem;
+        padding: .5rem 1rem .5rem 1rem;
     }
 
     #colony-ship-details h2{
         font-size: 1.5rem;
         color: #ffffff;
-        padding: .1rem .5rem .1rem .5rem;
+        padding: .5rem 1.5rem 1.5rem 1rem;
     }
-
+    
+    #next-page{
+        position: absolute;
+        width:100vw;
+        top: unset;
+        bottom:6vh;
+        z-index: 100;
+        font-size: 1rem;
+        text-align: center;
+    }
     
 
 }
@@ -501,12 +543,32 @@ p{
         font-size: 2.8rem;
     }
 
+    #best-tech{
+        position: absolute;
+        width:100vw;
+        top:6vh;
+        z-index: 100;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #next-page{
+        position: absolute;
+        width:100vw;
+        top:unset;
+        bottom:6vh;
+        z-index: 100;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+
     h2{
         color: white;
         font-size: 2.2rem;
         font-weight: 600;
         width: inherit;
-        text-align: center;
+        text-align: left;
     }
     
     li{

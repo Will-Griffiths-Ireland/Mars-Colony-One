@@ -88,6 +88,7 @@
 
 p{
     color: #ffffff;
+    width:70vw;
     font-size: 2rem;
     padding: 5rem;
     background-color: rgba(62,146,204,.5);
@@ -114,10 +115,8 @@ summary{
 
     /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: .5vh;
-
 }
 
 h1{

@@ -8,14 +8,13 @@
 
 *{
     margin:0;
-    /* outline: #ff0000 solid 1px; */
 }
 
  body{
     
     font-family: 'Exo 2', sans-serif;
     background-color: #000000;
-    /*hide overflow on x axis that show up due to transfomr animations*/
+    /*hide overflow on x axis that show up due to transform animations*/
     overflow-x: hidden;
     
 }
@@ -243,8 +242,7 @@ h1{
     padding:.1rem;
     margin:0;
     letter-spacing: normal;
-    font-family: Arial, sans-serif;
-    font-size: .2rem;
+    font-size: .4rem;
     color: #ffffff;
     display: list-item;
     text-align: center;
@@ -541,13 +539,7 @@ p{
         line-height: 5vh;
 
     }
-
-
-
 }
-
-
-
 
 /* Simple 3d rotate on x axis of globe icon */
 
@@ -556,8 +548,8 @@ p{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-
 }
+
 @keyframes spinny{
     from{
         transform: rotate3d(0, 1, 0, 0deg);
@@ -575,7 +567,7 @@ p{
 
 @keyframes body-fade{
     from{
-        opacity: 0;
+        opacity: 0.01;
     }
     to{
         opacity: 1;
