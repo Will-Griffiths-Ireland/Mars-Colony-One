@@ -1,117 +1,112 @@
 /* Stylesheet for mars.html which resizes based on wide,standard or compact/mobile resolutions*/
-
 /*Import Exo 2 font from google fonts*/
-
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
 /* Remove all margins - they are the enemy and must be stopped*/
-
-*{
-    margin:0;
+* {
+    margin: 0;
 }
 
- body{
-    
+body {
     font-family: 'Exo 2', sans-serif;
     background-color: #000000;
     /*hide overflow on x axis that show up due to transform animations*/
     overflow-x: hidden;
-    
+
 }
 
 /* simple page divider  */
-.page-splitter{
-
+.page-splitter {
     width: 100vw;
     height: 5vh;
-
 }
 
 /* Class for setting primary orangey/red color*/
-.font-color{
+.font-color {
     color: #DF6C24;
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
-.center-div{
+.center-div {
     margin: 0 auto;
 }
 
-.link{
+.link {
     font-size: inherit;
     display: inline;
     text-decoration: none;
     color: #DF6C24;
 }
-.link:hover{
-    color: rgb(62,146,204);
+
+.link:hover {
+    color: rgb(62, 146, 204);
 }
 
 /*class to apply simple flex to align content of div*/
 
-.flex-helper{
+.flex-helper {
     height: inherit;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-items: center;
-    justify-content:center;
-    align-content:center;
+    justify-content: center;
+    align-content: center;
 }
 
 /* div than encompases entire page which alows for fade transition*/
 
-.full-page-div{
+.full-page-div {
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     animation-name: body-fade;
     animation-duration: 3s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     background: url(../images/stars.png);
     background-position: center;
-    background-size:auto;
+    background-size: auto;
     background-repeat: repeat;
 
 }
 
-p{
+p {
     width: 98%;
     color: #ffffff;
     padding: 1%;
     text-align: center;
 }
 
-h2{
+h2 {
     color: #ffffff;
     text-align: center;
 }
 
-#why-join{
+#why-join {
     position: absolute;
-    width:100vw;
-    top:6vh;
+    width: 100vw;
+    top: 6vh;
     z-index: 100;
 }
 
 /* line with link to next page in the flow*/
 
-#next-page{
+#next-page {
     position: absolute;
-    width:100vw;
-    bottom:6vh;
+    width: 100vw;
+    bottom: 6vh;
     z-index: 100;
 
 }
 
-.li-reset{
-    
+.li-reset {
+
     padding: 0;
     padding-bottom: 1rem;
-    margin:0;
+    margin: 0;
     letter-spacing: normal;
     font-family: Arial, sans-serif;
     font-size: 1rem;
@@ -120,317 +115,327 @@ h2{
     text-align: center;
 }
 
-.list{
+.list {
     list-style: none;
     padding: 0;
 }
 
 
 /* simple gradiant for header */
-.main-heading{
-    background: linear-gradient(180deg, rgba(62,146,204,1) 0%, rgba(0,0,0,0) 100%);
-    height:5vh;   
+.main-heading {
+    background: linear-gradient(180deg, rgba(62, 146, 204, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 5vh;
 }
 
 /* Container for nav elements*/
-.top-nav{
+.top-nav {
     display: inline;
     background: transparent;
     float: right;
-    height: 5vh;    
+    height: 5vh;
 }
 
 
 /*Main mars map container*/
-#main-map{
+#main-map {
     background-image: url(../images/mars-intro-1000.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     filter: drop-shadow(0 0 5vw #DF6C24);
     position: absolute;
-    top:10vh;
-    left:10vw;
+    top: 10vh;
+    left: 10vw;
     width: 80vw;
     height: 80vh;
 }
 
-#quad1{
-    position:absolute;
+#quad1 {
+    position: absolute;
     margin: 0;
     width: 35%;
     height: 30%;
     top: 15%;
     left: 10%;
-    background-color: 	rgba(62, 146, 204, .3);
+    background-color: rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
+
 
 }
 
-#quad2{
+#quad2 {
     position: absolute;
-    margin:0;
+    margin: 0;
     width: 35%;
     height: 30%;
     top: 15%;
     right: 10%;
-    background-color: 	rgba(116, 18, 29, .3);
+    background-color: rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
+
 }
 
-#quad3{
+#quad3 {
     position: absolute;
-    margin:0;
+    margin: 0;
     width: 35%;
     height: 30%;
     bottom: 15%;
     left: 10%;
-    background-color: 	rgba(116, 18, 29, .3);
+    background-color: rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
+
 }
 
-#quad4{
+#quad4 {
     position: absolute;
-    margin:0;
+    margin: 0;
     width: 35%;
     height: 30%;
     bottom: 15%;
     right: 10%;
-    background-color: 	rgba(62, 146, 204, .3);
+    background-color: rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
+
 }
 
 /* Rules for lower resolution mobile/tablet screens*/
 
-@media screen and (max-width: 1000px ){
+@media screen and (max-width: 1000px) {
 
-h1{
-    display: inline;
-    padding-left: 1rem;
-    line-height: 5vh;
-    background: transparent;
-    color: white;
-    font-size: 1.5rem;
-    text-shadow: rgb(0, 0, 0) .1rem .1rem;
-}
-
-.logo-globe{
-    color: #DF6C24;
-    text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
-    background: transparent;
-    font-size: 1.8rem;
-}
-
-#why-join{
-    position: absolute;
-    width:100vw;
-    top:8vh;
-    z-index: 100;
-    font-size: 1rem;
-}
-
-.li-reset{
-    
-    padding:.1rem;
-    margin:0;
-    letter-spacing: normal;
-    font-size: .4rem;
-    color: #ffffff;
-    display: list-item;
-    text-align: center;
-}
-
-.list{
-    list-style: none;
-    padding: 0;
-}
-
-h2{
-    font-size: .8rem;
-    padding: .1rem;
-}
-
-p{
-    font-size: .5rem;
-    padding:.1rem;
-}
-
-#quad1{
-    position:absolute;
-    margin: 0;
-    width: 40%;
-    height: 30%;
-    top: 15%;
-    left: 5%;
-    background-color: 	rgba(62, 146, 204, .3);
-    border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-
-}
-
-#quad2{
-    position: absolute;
-    margin:0;
-    width: 40%;
-    height: 30%;
-    top: 15%;
-    right: 5%;
-    background-color: 	rgba(116, 18, 29, .3);
-    border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-}
-
-#quad3{
-    position: absolute;
-    margin:0;
-    width: 40%;
-    height: 30%;
-    bottom: 15%;
-    left: 5%;
-    background-color: 	rgba(116, 18, 29, .3);
-    border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-}
-
-#quad4{
-    position: absolute;
-    margin:0;
-    width: 40%;
-    height: 30%;
-    bottom: 15%;
-    right: 5%;
-    background-color: 	rgba(62, 146, 204, .3);
-    border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    
-}
-
-
-
-
-
-
-
-/*Code for burger menu*/
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .menu > li {
-    margin: 0 1rem;
-    overflow: hidden;
-  }
-
-.menu-button-container {
-    display: none;
-    height: 100%;
-    width: 30px;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2vw;
-  }
-
-  #menu-toggle {
-    display: none;
-  }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    height: 4px;
-    width: 30px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
-  }
-
-  .menu-button::before {
-    content: "";
-    margin-top: -8px;
-  }
-  
-  .menu-button::after {
-    content: "";
-    margin-top: 8px;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
-    transform: rotate(405deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(255, 255, 255, 0);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
-  }
-  
-    .menu-button-container {
-      display: flex;
+    h1 {
+        display: inline;
+        padding-left: 1rem;
+        line-height: 5vh;
+        background: transparent;
+        color: white;
+        font-size: 1.5rem;
+        text-shadow: rgb(0, 0, 0) .1rem .1rem;
     }
-    
-  
+
+    .logo-globe {
+        color: #DF6C24;
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+        background: transparent;
+        font-size: 1.8rem;
+    }
+
+    #why-join {
+        position: absolute;
+        width: 100vw;
+        top: 8vh;
+        z-index: 100;
+        font-size: 1rem;
+    }
+
+    #next-page {
+        position: absolute;
+        width: 100vw;
+        bottom: 3vh;
+        z-index: 100;
+        font-size: 1rem;
+
+    }
+
+    .li-reset {
+
+        padding: .1rem;
+        margin: 0;
+        letter-spacing: normal;
+        font-size: .4rem;
+        color: #ffffff;
+        display: list-item;
+        text-align: center;
+    }
+
+    .list {
+        list-style: none;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: .8rem;
+        padding: .1rem;
+    }
+
+    p {
+        font-size: .5rem;
+        padding: .1rem;
+    }
+
+    #quad1 {
+        position: absolute;
+        margin: 0;
+        width: 40%;
+        height: 30%;
+        top: 15%;
+        left: 5%;
+        background-color: rgba(62, 146, 204, .3);
+        border-radius: 5%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+    }
+
+    #quad2 {
+        position: absolute;
+        margin: 0;
+        width: 40%;
+        height: 30%;
+        top: 15%;
+        right: 5%;
+        background-color: rgba(116, 18, 29, .3);
+        border-radius: 5%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    }
+
+    #quad3 {
+        position: absolute;
+        margin: 0;
+        width: 40%;
+        height: 30%;
+        bottom: 15%;
+        left: 5%;
+        background-color: rgba(116, 18, 29, .3);
+        border-radius: 5%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    }
+
+    #quad4 {
+        position: absolute;
+        margin: 0;
+        width: 40%;
+        height: 30%;
+        bottom: 15%;
+        right: 5%;
+        background-color: rgba(62, 146, 204, .3);
+        border-radius: 5%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    }
+
+
+
+
+
+
+
+    /*Code for burger menu*/
+
     .menu {
-      position: absolute;
-      z-index: 200;
-      top: 0;
-      margin-top: 5vh;
-      right: 1vw;
-      flex-direction: column;
-      width: 90vw;
-      justify-content: center;
-      align-items: center;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
-  
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
+    .menu>li {
+        margin: 0 1rem;
+        overflow: hidden;
     }
-  
-    #menu-toggle:checked ~ .menu li {
-      height: 2rem;
-      padding: 1rem;
-      transition: height 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+
+    .menu-button-container {
+        display: none;
+        height: 100%;
+        width: 30px;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 2vw;
     }
-  
-    .menu > li {
-      display: flex;
-      justify-content:flex-end;
-      margin: 0;
-      padding-right: 20vw;
-      width: 100%;
-      font-size: 2rem;
-      text-decoration: none;
-      color: #ffffff;
-      background: linear-gradient(270deg, rgba(223,108,36,0) 0%, rgba(196,95,32,0.95) 5%, rgba(0,0,0,0.95) 60%, rgba(0,0,0,0) 100%);
+
+    #menu-toggle {
+        display: none;
     }
-    .menu > li > a {
+
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        border-radius: 2px;
+    }
+
+    .menu-button::before {
+        content: "";
+        margin-top: -8px;
+    }
+
+    .menu-button::after {
+        content: "";
+        margin-top: 8px;
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button::before {
+        margin-top: 0px;
+        transform: rotate(405deg);
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button {
+        background: rgba(255, 255, 255, 0);
+    }
+
+    #menu-toggle:checked+.menu-button-container .menu-button::after {
+        margin-top: 0px;
+        transform: rotate(-405deg);
+    }
+
+    .menu-button-container {
+        display: flex;
+    }
+
+
+    .menu {
+        position: absolute;
+        z-index: 200;
+        top: 0;
+        margin-top: 5vh;
+        right: 1vw;
+        flex-direction: column;
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        height: 2rem;
+        padding: 1rem;
+        transition: height 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding-right: 20vw;
+        width: 100%;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #ffffff;
+        background: linear-gradient(270deg, rgba(223, 108, 36, 0) 0%, rgba(196, 95, 32, 0.95) 5%, rgba(0, 0, 0, 0.95) 60%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .menu>li>a {
         color: #ffffff;
         text-decoration: none;
         padding-right: 5vw;
@@ -438,9 +443,9 @@ p{
 
 }
 
-@media screen and (min-width: 1000px ){
+@media screen and (min-width: 1000px) {
 
-    h1{
+    h1 {
         display: inline;
         margin: auto 0;
         padding-left: .5rem;
@@ -450,8 +455,8 @@ p{
         font-size: 2rem;
         text-shadow: rgb(0, 0, 0) .1rem .1rem;
     }
-    
-    .logo-globe{
+
+    .logo-globe {
         color: #DF6C24;
         text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
         background: transparent;
@@ -460,20 +465,20 @@ p{
 
 
     /* Hide checkbox used for compact view nav burger*/
-    #menu-toggle{
+    #menu-toggle {
         display: none;
     }
-    
-    li{
+
+    li {
         display: inline;
         background: inherit;
         font-size: 1rem;
         letter-spacing: .1rem;
-        padding: .5rem;  
+        padding: .5rem;
     }
 
 
-    .menu *{
+    .menu * {
         text-decoration: none;
         list-style-type: none;
         background: inherit;
@@ -488,7 +493,7 @@ p{
     .menu a:hover {
         /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
-        color:#DF6C24;
+        color: #DF6C24;
 
     }
 
@@ -497,9 +502,9 @@ p{
 
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
 
-    h1{
+    h1 {
         display: inline;
         margin: auto 0;
         padding-left: .5rem;
@@ -509,26 +514,26 @@ p{
         font-size: 2.5rem;
         text-shadow: rgb(0, 0, 0) .1rem .1rem;
     }
-    
-    .logo-globe{
+
+    .logo-globe {
         color: #DF6C24;
         text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
         background: transparent;
         font-size: 2.8rem;
     }
 
-    
-    
-    li{
+
+
+    li {
         display: inline;
         background: inherit;
         font-size: 1.4rem;
         letter-spacing: .1rem;
-        padding: .5rem;  
+        padding: .5rem;
     }
 
 
-    .menu *{
+    .menu * {
         text-decoration: none;
         list-style-type: none;
         background: inherit;
@@ -543,57 +548,59 @@ p{
 
 /* Simple 3d rotate on x axis of globe icon */
 
-.logo-globe-spin{
+.logo-globe-spin {
     animation-name: spinny;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 
-@keyframes spinny{
-    from{
+@keyframes spinny {
+    from {
         transform: rotate3d(0, 1, 0, 0deg);
         color: rgba(223, 108, 36, 1);
         text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     }
-    to{
+
+    to {
         transform: rotate3d(0, 1, 0, 180deg);
         color: rgba(223, 108, 36, 1);
-        text-shadow: 0 0 1rem rgba(0, 0, 0, 1); 
+        text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     }
 }
 
 /* fade for the entire page */
 
-@keyframes body-fade{
-    from{
+@keyframes body-fade {
+    from {
         opacity: 0.01;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
 
 /*Animation to slide in element from off screen right*/
 
-@keyframes slide-in-right{
-    from{
+@keyframes slide-in-right {
+    from {
         transform: translateX(-100vw);
     }
-    to{
-        transform:unset;
+
+    to {
+        transform: unset;
     }
 }
 
 /*Animation to slide in element from off screen left*/
 
-@keyframes slide-in-left{
-    from{
+@keyframes slide-in-left {
+    from {
         transform: translateX(+100vw);
     }
-    to{
-        transform:unset;
+
+    to {
+        transform: unset;
     }
 }
-
-
