@@ -166,14 +166,14 @@ p{
 }
 
 #trip-details p{
-    font-size: .5rem;
-    padding: .5rem;
+    font-size: .8rem;
+    padding: .2rem;
 }
 
 #trip-details h2{
-    font-size: .8rem;
+    font-size: 1rem;
     color: #ffffff;
-    padding: .8rem;
+    padding: .5rem;
 }
 
 #mars-container{

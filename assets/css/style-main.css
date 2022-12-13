@@ -367,7 +367,7 @@ h2{
         text-align: center;
     }
 
-    /* Hide checkbox usesd for compact view nav burger*/
+    /* Hide checkbox usesd for mobile/tablet view nav burger*/
     #menu-toggle{
         display: none;
     }
@@ -380,7 +380,6 @@ h2{
         padding: .5rem;  
     }
 
-
     .menu *{
         text-decoration: none;
         list-style-type: none;
@@ -390,14 +389,12 @@ h2{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
 
     .menu a:hover {
         /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color:#DF6C24;
-
     }
 
     .mission-overview{
@@ -438,15 +435,12 @@ h2{
         filter: drop-shadow(0 0 5vw #DF6C24);
     }
     
-    
-    
     .founder-message{
         
         animation-name: slide-in-left;
         animation-duration: 3s;
         animation-delay: 3s;
         animation-fill-mode: both;
-        /* background: rgba(62,146,204,.2); */
         display: inline;
         float: right;
         width:50%;
@@ -577,12 +571,7 @@ h2{
         text-align: center;
         color: rgb(255, 255, 255);
     }
-
 }
-
-
-
-
 /* Simple 3d rotate on x axis of globe icon */
 
 .logo-globe-spin{
