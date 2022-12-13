@@ -67,14 +67,6 @@ ul{
     text-align: center;
 }
 
-#next-page{
-    position: relative;
-    width:100vw;
-    top:175vh;
-    z-index: 100;
-
-}
-
 /*class to apply simple flex to align content of div*/
 
 .flex-helper{
@@ -167,8 +159,8 @@ h2{
 
 p{
     color: #ffffff;
-    padding: .5rem;
-    font-size: .5rem;
+    padding: 1rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -187,8 +179,8 @@ p{
 
 #ship-details{
     position: block;
-    width: calc(100vw -4rem);
-    margin: 2rem;
+    width: calc(100vw -2rem);
+    margin: 1rem;
     height:fit-content;
 }
 
@@ -196,15 +188,15 @@ p{
     text-align: center;
     list-style: none;
     color: #ffffff;
-    font-size: .5rem;
-    padding: .1rem .5rem .5rem .5rem;
+    font-size: .8rem;
+    padding: .5rem;
 }
 
 #ship-details h2{
     text-align: center;
-    font-size: .8rem;
+    font-size: 1.2;
     color: #ffffff;
-    padding: .1rem .5rem .8rem .5rem;
+    padding: 1rem;
 }
 
 #colony-ship-background{
@@ -224,8 +216,8 @@ p{
 #colony-ship-details{
     position: block;
     z-index: 60;
-    width: calc(100vw -4rem);
-    margin: 2rem;
+    width: calc(100vw -2rem);
+    margin: 1rem;
     height:fit-content;
 }
 
@@ -233,15 +225,24 @@ p{
     text-align: center;
     list-style: none;
     color: #ffffff;
-    font-size: .5rem;
-    padding: .1rem .5rem .5rem .5rem;
+    font-size: .8rem;
+    padding: .5rem;
 }
 
 #colony-ship-details h2{
     text-align: center;
-    font-size: .8rem;
+    font-size: 1.2rem;
     color: #ffffff;
-    padding: .8rem .5rem .8rem .5rem;
+    padding: 1rem;
+}
+
+#next-page{
+    position: relative;
+    width:100vw;
+    top: unset;
+    z-index: 100;
+    font-size: 1rem;
+    text-align: center;
 }
 
 /*Code for burger menu*/
@@ -521,16 +522,16 @@ p{
     }
     
     #next-page{
-        position: absolute;
-        width:100vw;
-        top: unset;
+        position: fixed;
+        color: #ffffff;
+        display:block;
         bottom:6vh;
+        width:100vw;
+        left:0;
         z-index: 100;
         font-size: 1rem;
         text-align: center;
     }
-    
-
 }
 
 @media screen and (min-width: 1400px){
@@ -563,12 +564,14 @@ p{
     }
 
     #next-page{
-        position: absolute;
-        width:100vw;
-        top:unset;
+        position: fixed;
+        color: #ffffff;
+        display:block;
         bottom:6vh;
+        width:100vw;
+        left:0;
         z-index: 100;
-        font-size: 2rem;
+        font-size: 2rem !important;
         text-align: center;
     }
     

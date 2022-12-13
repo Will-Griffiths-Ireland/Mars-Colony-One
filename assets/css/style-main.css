@@ -198,7 +198,7 @@ h2{
     height:45vw;
     display: inline;
     float: left; 
-    background-image: url(../images/founder-trans-background.png);
+    background-image: url(../images/found-trans-background.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -481,7 +481,7 @@ h2{
         display: inline;
         float:right;
         height: 95%; 
-        background-image: url(../images/founder-trans-background.png);
+        background-image: url(../images/found-trans-background.webp);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
