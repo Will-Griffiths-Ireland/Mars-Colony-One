@@ -19,7 +19,11 @@
     background-repeat: repeat;
     /*hide overflow on x axis that show up due to transfomr animations*/
     overflow-x: hidden;
-    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 /* simple page divider  */
@@ -164,37 +168,36 @@ h2{
 p{
     color: #ffffff;
     padding: .5rem;
-    font-size: 1rem;
+    font-size: .5rem;
+    text-align: center;
 }
 
 
 #ship-background{
-    position: absolute;
-    z-index: 50;
+    position: block;
     background-image: url(../images/lauch-ship-lower-res-compressed.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 90vw;
-    left:5vw;
-    height: 40vh;
-    top: 12vh;
+    width: calc(100vw -4rem);
+    height: calc(100vw *1.35);
+    margin:2rem;
     filter: drop-shadow(0 0 1rem #ffffff);
 }
 
 #ship-details{
-    position: absolute;
-    z-index: 60;
-    width: 90vw;
-    height: 35vh;
-    top: 52vh; 
-    left: 5vw;
+    position: block;
+    width: calc(100vw -4rem);
+    margin: 2rem;
+    height:fit-content;
 }
 
-#ship-details p{
+#ship-details li{
     text-align: center;
+    list-style: none;
+    color: #ffffff;
     font-size: .5rem;
-    padding: .5rem .5rem .1rem .5rem;
+    padding: .1rem .5rem .5rem .5rem;
 }
 
 #ship-details h2{
@@ -206,31 +209,30 @@ p{
 
 #colony-ship-background{
 
-    position: absolute;
-    z-index: 50;
+    position: block;
     background-image: url(../images/jagger1-fullres.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 90vw;
-    top:87vh;
-    height: 40vh;
-    left: 5vw;
+    width: calc(100vw -4rem);
+    height: calc(100vw *1.35);
+    margin:2rem;
     filter: drop-shadow(0 0 1rem #ffffff);
 
 }
 
 #colony-ship-details{
-    position: absolute;
+    position: block;
     z-index: 60;
-    width: 90vw;
-    top:137vh;
-    height: 40vh;
-    left: 5vw;
+    width: calc(100vw -4rem);
+    margin: 2rem;
+    height:fit-content;
 }
 
-#colony-ship-details p{
+#colony-ship-details li{
     text-align: center;
+    list-style: none;
+    color: #ffffff;
     font-size: .5rem;
     padding: .1rem .5rem .5rem .5rem;
 }
@@ -252,7 +254,7 @@ p{
     padding: 0;
   }
   
-  .menu > li {
+  .menu li {
     margin: 0 1rem;
     overflow: hidden;
   }
@@ -430,8 +432,8 @@ p{
     
     p{
         color: #ffffff;
-        padding: .1rem .5rem .1rem .5rem;
-        font-size: 2rem;
+        padding: 1rem;
+        font-size: 1rem;
     }
 
     #ship-background{
@@ -460,7 +462,11 @@ p{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
-    #ship-details p{
+    #ship-details li{
+        display: list-item;
+        text-align: left;
+        list-style: none;
+        color: #ffffff;
         font-size: 1rem;
         padding: .5rem 1rem .5rem 1rem;
     }
@@ -499,7 +505,11 @@ p{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
 
-    #colony-ship-details p{
+    #colony-ship-details li{
+        display: list-item;
+        text-align: left;
+        list-style: none;
+        color: #ffffff;
         font-size: 1rem;
         padding: .5rem 1rem .5rem 1rem;
     }
@@ -562,7 +572,6 @@ p{
         text-align: center;
     }
     
-
     h2{
         color: white;
         font-size: 2.2rem;
