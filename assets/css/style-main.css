@@ -560,14 +560,14 @@ h2{
 
     .mission-overview p{
         color: rgb(255, 255, 255);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-left: 5%;
         text-align: left; 
     }
 
     .founder-message p{
         color: rgb(255, 255, 255);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-right: 5%;
         text-align: left; 
     }
@@ -610,7 +610,7 @@ h2{
 
 @keyframes body-fade{
     from{
-        opacity: 0;
+        opacity: 0.01;
     }
     to{
         opacity: 1;

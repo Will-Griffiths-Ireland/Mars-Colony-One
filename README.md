@@ -2,7 +2,7 @@
 # Mars Colony One
 ## **Site Overview**
 
-This site is a demo of my abilities in HTML and CSS
+This site is a demonstration of my desing skills in HTML and CSS
 
 The site is designed for a fictional company called StarSeed industries, who are a market leader in space exploration.
 The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
@@ -47,17 +47,21 @@ The objective of the site is to capture the attention of possible colonists, pro
 * Users interested in space travel 
 * Users interested in new work oppertunities
 * Users interested in a new life challange
+* Users not sure what to do with their life (adolesents)
+* Users previously involved in work within challanging enviroments
 ​
 ### **User Stories:**
 ​
-* As a user, I want to quickly understand the subject and how it relates to me
+* As a user, I want to quickly understand the purpose of the site and its core message
 * As a user, I want to navigate through content easily
-* As a user, I want to learn more about the product/service
+* As a user, I want to learn more about what oppertunities there are for me on Mars
+* As a user, I want to learn about the technolgy the company uses
+* As a user, I want to easily submit my details so I can be contacted
 * As a user, I want to easily view the site with whatever device and browser I am using 
 ​
 ### **Site Aims:**
 ​
-* To trigger an interest in joining a colony on Mars
+* Core aim is to generate as much interest as possible in the mission and for users to provide their contact details
 * To help the user understand the mission to colonise mars
 * To provide key details about the mission and what to expect
 * To get contact information from the user for future recruitment
@@ -70,7 +74,7 @@ Orgininal wireframs in PDF here
 ​
 ### **Color Scheme:**
 ​
-I took inspiration for the colour palate from Mars itself and built out from that core color
+I took inspiration for the colour palate from Mars itself and built out from that core icon iscolor
 
 Mars Orange
 Space Black
@@ -80,7 +84,7 @@ Blue Atmosphere
 ​
 I was aiming for a sci-fi looks and feel without going overboard and alianting users
 The logo and heading use Exo 2 font
-Arial is used in other areas
+Arial is used as a fallback
 ​
 ## **Site-Wide Features**
 ​
@@ -111,12 +115,13 @@ The image of the founder and his companies logo bring punch and credibility to t
 ​
 * user account creation
 * user application tracking
+* interactive 3d model of Jagger I Ship
 
 ​
 ​
 ## **Testing Phase**
 
-Testing was perfomred throught development of the site
+Testing was perfomred throught development of the site and led to desing evolution
 
 ​
 * Responsiveness - How do you test this, dev tools? checking on multiple devices?
@@ -153,7 +158,7 @@ Here mention what technologies you've used for example
 - HTML5
 - CSS3
 - Javascript (Only for fontawesome)
-- Powerpoint & Paint.net for starseed logo
+- Powerpoint & Paint.net for image manipulation
 ​
 ## **Credits**
 ### **Honorable mentions**

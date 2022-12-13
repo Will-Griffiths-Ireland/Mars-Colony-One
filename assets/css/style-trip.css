@@ -43,6 +43,17 @@
     margin: 0 auto;
 }
 
+.link {
+    font-size: inherit;
+    display: inline;
+    text-decoration: none;
+    color: #DF6C24;
+}
+
+.link:hover {
+    color: rgb(62, 146, 204);
+}
+
 /*class to apply simple flex to align content of div*/
 
 .flex-helper{
@@ -51,7 +62,7 @@
     flex-direction:column;
     align-items:flex-start;
     justify-items: center;
-    justify-content:center;
+    justify-content:space-evenly;
     align-content:center;
 }
 
@@ -117,6 +128,7 @@ h1{
 h2{
     color: white;
     font-size: 2rem;
+    padding: 2rem;
     font-weight: 600;
     width: inherit;
     text-align: center;
@@ -124,7 +136,7 @@ h2{
 
 p{
     color: #ffffff;
-    padding: .5rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -155,13 +167,13 @@ p{
 
 #trip-details p{
     font-size: .5rem;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .5rem;
 }
 
 #trip-details h2{
     font-size: .8rem;
     color: #ffffff;
-    padding: .1rem .5rem .1rem .5rem;
+    padding: .8rem;
 }
 
 #mars-container{
@@ -384,7 +396,7 @@ p{
     }
 
     h2{
-        color: white;
+        color: #ffffff;
         font-size: 3rem;
         font-weight: 600;
         width: inherit;
