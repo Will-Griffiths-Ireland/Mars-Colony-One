@@ -429,7 +429,6 @@ h2{
     
     .mission-image{
         margin: 0 auto;
-        aspect-ratio: 1;
         width: inherit;
         height: inherit;
         background-image: url(../images/inspire_reduce_circle.webp);
