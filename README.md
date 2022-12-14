@@ -195,7 +195,9 @@ Finally I created a small image and and added random pixels, this image is repea
 
 ### **Footer**
 
-The absence of a footer is a deliberate design choice as I felt this type of site would not benefit from one
+The absence of a footer is a deliberate design choice as I felt this type of site would not benefit from one.
+
+I did plan one in my wireframes but it didn't feel right so I took it out.
 
 ### **Navigation Flow**
 
@@ -350,7 +352,7 @@ Hardware include Windows 10 PC, Samsung Galaxy S22 Ultra, and Apple Ipad Pro
 
 #### *HTML Validator*
 
-To save screen space I've summeriesed the results
+To save screen space I've summarized the results
 
 | File | Result | Comments |
 | ----------- | ----------- | ---- |
@@ -370,15 +372,30 @@ The only error I had was due to using a div within a label
 | index.html | Pass | N\A |
 | Paragraph | Text | N\A |
 
-#### *CSS Validator*
+#### *Lighthouse Results*
 
-​
-* Responsiveness - How do you test this, dev tools? checking on multiple devices?
-​
-* Functionality - Each feature needs to be tested before something is complete, talk about the process, click each link check each image, does form validation work, if your using javascript or anything else, does it always behave as the user expects
-​
-* Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
-​
+The call-out on lighthouse results is I got hit for image cache policy and also for contrast on the form, but I have hover styles that change the input boxes when user is typing so black on white should be full contrast
+
+
+*Desktop*
+
+![Lighthouse desktop 1 result](./docs/images/light-desk/1.webp)
+![Lighthouse desktop 2 result](./docs/images/light-desk/2.webp)
+![Lighthouse desktop 3 result](./docs/images/light-desk/3.webp)
+![Lighthouse desktop 4 result](./docs/images/light-desk/4.webp)
+![Lighthouse desktop 5 result](./docs/images/light-desk/5.webp)
+![Lighthouse desktop 6 result](./docs/images/light-desk/6.webp)
+![Lighthouse desktop 7 result](./docs/images/light-desk/7.webp)
+
+*Mobile*
+
+![Lighthouse mobile 1 result](./docs/images/light-mobile/1.webp)
+![Lighthouse mobile 2 result](./docs/images/light-mobile/2.webp)
+![Lighthouse mobile 3 result](./docs/images/light-mobile/3.webp)
+![Lighthouse mobile 4 result](./docs/images/light-mobile/4.webp)
+![Lighthouse mobile 5 result](./docs/images/light-mobile/5.webp)
+![Lighthouse mobile 6 result](./docs/images/light-mobile/6.webp)
+![Lighthouse mobile 7 result](./docs/images/light-mobile/7.webp)
 ​
 ## **Defects**
 
