@@ -39,7 +39,7 @@ The objective of the site is to capture the attention of possible colonists, pro
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
-1. [**Tech**](#tech)
+1. [**Technology**](#technology)
 1. [**Credits**](#credits)
     * [**Honorable mentions**](#honorable-mentions)
     * [**General reference**](#general-reference)
@@ -87,18 +87,42 @@ I gave a lot of thought to producing a site that was an example of somethign a l
 
 ### **Wireframes:**
 
-Wireframes were built in Balsamiq as a foundation and there has been an organic evolution of the desing during construction of the site and testing across the different devices I had available.
+Wireframes were built in Balsamiq as a foundation and there has been an organic evolution of the design during construction of the site and testing across the different devices I had available.
 
-Orgininal wireframs in PDF here
+Original wireframs in PDF [here](./docs/mco-wireframe.pdf)
 ​
 ### **Color Scheme:**
-​
-I took inspiration for the colour palate from Mars itself and built out from that core icon iscolor
 
-Mars Orange
-Space Black
-Blue Atmosphere
-​
+My aims for the color scheme​.
+
+* High contrast
+* Complimentary colors
+* Dark/space theme
+
+I leveraged https://coolors.co/ during the process.
+
+I took inspiration for the core color from Mars itself and built out from that.
+I used a colour picker on the image of mars to pull out the hex of a color I like to start with.
+
+![Core Mars Color](./docs/images/orange.png)
+
+In contrast to the rich orange of mars I have used pure black to match with the void of space.
+
+![Space Black Color](./docs/images/black.png)
+
+I've also used a light blue which I see as introducing a link to planets atmospheres and a connection to life, water, and hope. I feel the use brings balance to the overall feel of the site. Used in a graduated form across the header to keep that atmospheeric theme across all pages.
+
+![Dark Blue Color](./docs/images/light-blue.png)
+
+Used sparingly and with opacity, I have a plum colour. This was to add a little varation where it felt right.
+
+![Plum Color](./docs/images/plum.png)
+
+Finally the core font color is pure white. This is not only for contract but also represents the pure white light of the sun.
+
+![White Color](./docs/images/white.png)
+
+
 ### **Typography**
 ​
 I was aiming for a sci-fi looks and feel without going overboard and alianting users
@@ -214,7 +238,7 @@ I deployed the page on GitHub pages via the following procedure: -
 You  can find the live site via the following URL - [live webpage](https://yoururlhere)
 ***
 ​
-## **Tech**
+## **Technology**
 ​
 These are the technoligies used for this project.
 
@@ -225,8 +249,10 @@ These are the technoligies used for this project.
 - Powerpoint (Initial Logo Creation) 
 - Paint.net (Image editing/sizing/compression)
 
-My approach was to start from a blank canvas really try to build out my vision without using a lot of content
-​
+My approach was to start from a blank canvas really try to build out my vision without using a lot of content​
+
+----
+
 ## **Credits**
 ### **Honorable mentions**
 ​

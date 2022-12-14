@@ -126,7 +126,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     padding: 2rem;
     font-weight: 600;
@@ -152,7 +152,7 @@ p{
     height: 30vh;
     top: 5vh;
     left: 5vw;
-    filter: drop-shadow(0 0 2vw #afbfec);
+    filter: drop-shadow(0 0 2vw #3e92cc);
 }
 
 #trip-details{
@@ -251,7 +251,7 @@ p{
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #ffffff;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -385,14 +385,12 @@ p{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
 
     .menu a:hover {
         /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color:#DF6C24;
-
     }
 
     h2{
@@ -420,7 +418,7 @@ p{
         height: 30vh;
         top: 30vh;
         left: 2vw;
-        filter: drop-shadow(0 0 2vw #afbfec);
+        filter: drop-shadow(0 0 2vw #3e92cc);
     }
     
     #trip-details{
@@ -445,7 +443,6 @@ p{
     }
     
     #mars-container{
-    
         background-image: url(../images/mars-intro-1000.webp);
         background-repeat: no-repeat;
         background-size: contain;
@@ -456,7 +453,6 @@ p{
         left:67vw;
         width: 30vw;
         height: 30vh;
-    
     }
 
     #jagger1{
@@ -478,11 +474,7 @@ p{
         animation-delay: 2s;
         animation-duration: 20s;
         animation-timing-function:ease-in-out
-
     }
-
-    
-
 }
 
 @media screen and (min-width: 1400px){
@@ -521,8 +513,6 @@ p{
         padding: .5rem;  
     }
     
-
-
     .menu *{
         text-decoration: none;
         list-style-type: none;
@@ -535,12 +525,7 @@ p{
 
     }
 
-
-
 }
-
-
-
 
 /* Simple 3d rotate on x axis of globe icon */
 
@@ -600,7 +585,6 @@ p{
         left: 85vw;
         opacity: 0;
         scale:0;
-
     }
 }
 @keyframes jagger-move-mobile{
