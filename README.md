@@ -23,19 +23,21 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Site Aims***](#site-aims)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
-    * [***Typography**](#typography)
+    * [***Typography***](#typography)
 1. [**Site-Wide Features**](#site-wide-features)
+    * [***Site Logo***](#site-logo)
+    * [***Navigation Bar***](#navigation-bar)
     * [***Page Background***](#page-background)
-    * [***Header Element:***](#header-element)
     * [***Footer***](#footer)
+    * [***Navigation Flow***](#navigation-flow)
 1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**Intro Page Content**](#intro-page-content)
-    * [**Mission Page Content**](#mission-page-content)
-    * [**Mars Page Content**](#mars-page-content)
-    * [**Ship Page Content**](#ship-page-content)
-    * [**Trip Page Content**](#trip-page-content)
-    * [**FAQ Page Content**](#faq-page-content)
-    * [**Sign-up Page Content**](#sign-up-page-content)
+    * [***Intro Page Content***](#intro-page-content)
+    * [***Mission Page Content***](#mission-page-content)
+    * [***Mars Page Content***](#mars-page-content)
+    * [***Ship Page Content***](#ship-page-content)
+    * [***Trip Page Content***](#trip-page-content)
+    * [***FAQ Page Content***](#faq-page-content)
+    * [***Sign-up Page Content***](#sign-up-page-content)
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -53,7 +55,7 @@ The objective of the site is to capture the attention of possible colonists, pro
 
 ### **Planning Overview:**
 
-I gave a lot of thought to producing a site that was an example of somethign a large company/corp would produce.
+I gave a lot of thought to producing a site that was an example of something a large company/corp would produce.
 
 * The site aims to be a sleek promotion of their project/mission
 * My focus is to captivate the user and keep them wanting more
@@ -62,25 +64,25 @@ I gave a lot of thought to producing a site that was an example of somethign a l
 ### **Target Audiences:**
 
 * Users interested in space travel 
-* Users interested in new work oppertunities
-* Users interested in a new life challange
-* Users not sure what to do with their life (adolesents)
-* Users previously involved in work within challanging enviroments
-* Users formaly involed in space industry
+* Users interested in new work opportunities
+* Users interested in a new life challenge
+* Users not sure what to do with their life (adolescents)
+* Users previously involved in work within challanging environments
+* Users formally involved in space industry
 
 ### **User Stories:**
 
 * As a user, I want to quickly understand the purpose of the site and its core message
 * As a user, I want to navigate through content easily
-* As a user, I want to learn more about what oppertunities there are for me on Mars
-* As a user, I want to learn about the technolgy the company uses
+* As a user, I want to learn more about what opportunities there are for me on Mars
+* As a user, I want to learn about the technology the company uses
 * As a user, I want to easily submit my details so I can be contacted
 * As a user, I want to easily view the site with whatever device and browser I am using 
 
 ### **Site Aims:**
 
 * Core aim is to generate as much interest as possible in the mission and for users to provide their contact details for recruitment followup
-* To help the user understand the mission to colonise mars
+* To help the user understand the mission to colonize mars
 * To provide key details about what they can do on mars
 * To provide key details about the living conditions
 * To get contact information from the user for future recruitment
@@ -151,7 +153,7 @@ Sans-serif is used as a fallback.
 
 ### **Navigation Bar**
 
-Across both mobile and desktop the header has at graduation from blue to trasparent. This is to signify the transition from the surface of a planet to the atmosphere and allow a blend from the header into the body.
+Across both mobile and desktop the header has at graduation from blue to transparent. This is to signify the transition from the surface of a planet to the atmosphere and allow a blend from the header into the body.
 
 #### *Desktop*
 
@@ -164,13 +166,13 @@ The desktop navigation is done via simple hyperlinks across the top right of the
 
 ![Navigation bar](./docs/images/nav1.png)
 
-When a user mouses over the links they chnage orange and have a white glow
+When a user mouses over the links they change orange and have a white glow
 
 ![Navigation bar2](./docs/images/nav2.png)
 
 #### *Mobile/Tablet*
 
-On lower resolution screens the menu is hidden and replaced with a "burger" menu. I had played with other types of icons but felt they led to a confusing experince for the user.
+On lower resolution screens the menu is hidden and replaced with a "burger" menu. I had played with other types of icons but felt they led to a confusing experience for the user.
 
 ![Navigation mobile](./docs/images/nav-mobile1.png)
 
@@ -187,24 +189,48 @@ I tried different solid colors and images but they were either too flat or far t
 
 Finally I created a small image and and added random pixels, this image is repeated across x/y for a starfield background.
 
+![Star Maps](./docs/images/stars.png)
+
 ### **Footer**
 
-The absence of a footer is a deliberate design choice as I felt this type of site would not have one
+The absence of a footer is a deliberate design choice as I felt this type of site would not benefit from one
+
+### **Navigation Flow**
+
+The journey for the user should be a linear trip through each page on the site bar the FAQ.
+
+The text within the page has links that lead the user towards the next page in the flow towards the sign-up.
+
+An example from the mars page.
+
+![nav flow example](./docs/images/nav-flow-ex.JPG)
+
+---
 ​
 ## **Individual Page Content features**
 
 ### **Intro Page Content**
 
-I used index.html as an intro page
+I used index.html as an intro page to capture the users attention and generate a "wow" factor about Mars
+
+* Animations fade in and out thought provoking text
+* Animation simulate approaching Mars from afar
+* Core site logo is introduced on a grand scale
+* Link to skip to mission page for return visitors
+
+![MCO intro page](./docs/images/intro-page.webp)
 
 ### **Mission Page Content**
 
-Images and text slide in from the side
-mission image is a artistic impression of the colonist on mars and the use of circle shape and transparentcy links the picture to the clasic image of mars
+The mission page gets right to the point and explains to the user what this site is about and how they can play a part
 
-The image of the founder and his companies logo bring punch and credibility to the mission as they are well known
+* Animations bring content in from off screen left/right
+* Colonist image was edited with circular transparency to allow a drop shadow filter. This is the blend the imagery of plant mars and its outer halo with the concept of exploration,
+* The Starseed logo relates to the company that is running this mission and brings the credibility of a well known brand
+* The founder Stranto Marlini is a household name so his image and quote bring futher credibility to the imporance of the mssion
+
 ​
-* This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
+![Mission page](./docs/images/main-page.webp)
 
 ### **Mars Page Content**
 
