@@ -2,19 +2,22 @@
 # Mars Colony One
 ## **Site Overview**
 
-This site is a demonstration of my desing skills in HTML and CSS
+This site is a demonstration of my front end design skills in pure HTML and CSS.
 
 The site is designed for a fictional company called StarSeed industries, who are a market leader in space exploration.
 The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
 The objective of the site is to capture the attention of possible colonists, provide details about the mission, and collect contact information from visitors that wish to apply.
 ​
 ![Intro Page](./docs/images/intro-page-amir-trans.webp)
+![Main Page](./docs/images/Main-page-amir-trans.webp)
+
 
 #### [The live website is here](https://will-griffiths-ireland.github.io/Mars-Colony-One/)​
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
 1. [**Planning stage**](#planning-stage)
+    * [***Planning Overview***](#planning-overview)
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
@@ -22,15 +25,17 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Color Scheme***](#color-scheme)
     * [***Typography**](#typography)
 1. [**Site-Wide Features**](#site-wide-features)
+    * [***Page Background***](#page-background)
     * [***Header Element:***](#header-element)
-    * [***The rest of your features***](#features)
     * [**Footer**](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
-    * [**Intro Page Content**](#about-page-content)
-    * [**"The Mission" Page Content**](#mission-page-content)
-    * [**"The Trip" Content**](#community-page-content)
-    * [**Contact Page Content**](#contact-page-content)
-    * [**Form Feedback Page Content**](#form-feedback-page-content)
+    * [**Intro Page Content**](#intro-page-content)
+    * [**Mission Page Content**](#mission-page-content)
+    * [**Mars Page Content**](#mars-page-content)
+    * [**Ship Page Content**](#ship-page-content)
+    * [**Trip Page Content**](#trip-page-content)
+    * [**FAQ Page Content**](#faq-page-content)
+    * [**Sign-up Page Content**](#sign-up-page-content)
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
@@ -40,8 +45,20 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [**General reference**](#general-reference)
     * [**Content**](#content)
     * [**Media**](#media)
-​
-## **Planning stage**
+
+---
+
+
+## **Planning Stage**
+
+### **Planning Overview:**
+
+I gave a lot of thought to producing a site that was an example of somethign a large company/corp would produce.
+
+* The site aims to be a sleek promotion of their project/mission
+* My focus is to captivate the user and keep them wanting more
+* My design is bold and minimalist
+
 ### **Target Audiences:**
 
 * Users interested in space travel 
@@ -49,27 +66,29 @@ The objective of the site is to capture the attention of possible colonists, pro
 * Users interested in a new life challange
 * Users not sure what to do with their life (adolesents)
 * Users previously involved in work within challanging enviroments
-​
+* Users formaly involed in space industry
+
 ### **User Stories:**
-​
+
 * As a user, I want to quickly understand the purpose of the site and its core message
 * As a user, I want to navigate through content easily
 * As a user, I want to learn more about what oppertunities there are for me on Mars
 * As a user, I want to learn about the technolgy the company uses
 * As a user, I want to easily submit my details so I can be contacted
 * As a user, I want to easily view the site with whatever device and browser I am using 
-​
+
 ### **Site Aims:**
-​
-* Core aim is to generate as much interest as possible in the mission and for users to provide their contact details
+
+* Core aim is to generate as much interest as possible in the mission and for users to provide their contact details for recruitment followup
 * To help the user understand the mission to colonise mars
-* To provide key details about the mission and what to expect
+* To provide key details about what they can do on mars
+* To provide key details about the living conditions
 * To get contact information from the user for future recruitment
-​
-​
+
 ### **Wireframes:**
-​
-Wireframes were built in Balsamiq as a foundation but there has been an organic evolution of the desing during construction of the site and testing across the different devices I had available
+
+Wireframes were built in Balsamiq as a foundation and there has been an organic evolution of the desing during construction of the site and testing across the different devices I had available.
+
 Orgininal wireframs in PDF here
 ​
 ### **Color Scheme:**
@@ -80,29 +99,42 @@ Mars Orange
 Space Black
 Blue Atmosphere
 ​
-## **Typography**
+### **Typography**
 ​
 I was aiming for a sci-fi looks and feel without going overboard and alianting users
 The logo and heading use Exo 2 font
-Arial is used as a fallback
-​
+Arial is used as a fallback.
+
+
 ## **Site-Wide Features**
 ​
-#### *logo*
+### **Site Logo**
 
 The page logo embraces a simple sci-fi astectic
 Using Exo 2 font to look modern/futurist while still highly readable.
 I used a transition on a globe icon to act as the "O" in One. This globe icon is used throughout the sites images as an anchor to build fimiliiarty
-#### *Navigation Bar:*
-This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
-​
-* The user is given links to each section of the page
-* Each option is presented in a way that is always obvious and reable
-* on smaller screens a hamburger menu is provided to ensure mobile users have an optimal experience
-​
-#### *features
 
-**Mission Page Content**
+### **Navigation Bar**
+This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
+
+
+### **Page Background**
+
+At first I used pure black as the background for all pages but it didn't have the right feel/depth
+
+I tried different solid colors and images but they were either too flat or far too busy for my astetic.
+
+Finally I created a small image and and added random pixels, this image is repeated across x/y for a starfield background.
+
+
+​
+## **Individual Page Content features**
+
+### **Intro Page Content**
+
+I used index.html as an intro page
+
+### **Mission Page Content**
 
 Images and text slide in from the side
 mission image is a artistic impression of the colonist on mars and the use of circle shape and transparentcy links the picture to the clasic image of mars
@@ -110,6 +142,28 @@ mission image is a artistic impression of the colonist on mars and the use of ci
 The image of the founder and his companies logo bring punch and credibility to the mission as they are well known
 ​
 * This is where you will place all of your features think about each section of the page include a screenshot and a few bullet points on how it's presented and why
+
+### **Mars Page Content**
+
+* This is the info about the mars page
+
+### **Ship Page Content**
+
+* This is the info about the ship page
+
+### **Trip Page Content**
+
+* This is the info about the trip page
+
+### **FAQ Page Content**
+
+* This is the info about the faq page
+
+### **Sign-up Page Content**
+
+* This is the info about the sign-up page
+
+---
 ​
 ## **Future-Enhancements**
 ​
@@ -121,7 +175,16 @@ The image of the founder and his companies logo bring punch and credibility to t
 ​
 ## **Testing Phase**
 
-Testing was perfomred throught development of the site and led to desing evolution
+Testing was perfomred throught development of the site and led to design evolution as I gained deeper understanding of what was possible.
+
+### **Validators**
+
+
+
+| File | Result | Comments |
+| ----------- | ----------- | ---- |
+| index.html | Pass | N\A|
+| Paragraph | Text |
 
 ​
 * Responsiveness - How do you test this, dev tools? checking on multiple devices?
@@ -153,17 +216,21 @@ You  can find the live site via the following URL - [live webpage](https://youru
 ​
 ## **Tech**
 ​
-Here mention what technologies you've used for example
+These are the technoligies used for this project.
+
 ​
 - HTML5
 - CSS3
 - Javascript (Only for fontawesome)
-- Powerpoint & Paint.net for image manipulation
+- Powerpoint (Initial Logo Creation) 
+- Paint.net (Image editing/sizing/compression)
+
+My approach was to start from a blank canvas really try to build out my vision without using a lot of content
 ​
 ## **Credits**
 ### **Honorable mentions**
 ​
-It's always nice to mention those that helped you get there, if people gave you support on slack or the local cat scared you into completing give them a mention!
+Thanks to my mentor Richard
 ​
 ### **Content:**
 ​
