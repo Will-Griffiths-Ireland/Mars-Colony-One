@@ -367,7 +367,7 @@ h2{
         text-align: center;
     }
 
-    /* Hide checkbox usesd for mobile/tablet view nav burger*/
+    /* Hide checkbox usesd for compact view nav burger*/
     #menu-toggle{
         display: none;
     }
