@@ -27,7 +27,7 @@ The objective of the site is to capture the attention of possible colonists, pro
 1. [**Site-Wide Features**](#site-wide-features)
     * [***Page Background***](#page-background)
     * [***Header Element:***](#header-element)
-    * [**Footer**](#footer)
+    * [***Footer***](#footer)
 1. [**Individual Page Content features**](#individual-page-content-features)
     * [**Intro Page Content**](#intro-page-content)
     * [**Mission Page Content**](#mission-page-content)
@@ -89,7 +89,7 @@ I gave a lot of thought to producing a site that was an example of somethign a l
 
 Wireframes were built in Balsamiq as a foundation and there has been an organic evolution of the design during construction of the site and testing across the different devices I had available.
 
-Original wireframs in PDF [here](./docs/mco-wireframe.pdf)
+Original wireframes in PDF [here](./docs/mco-wireframe.pdf)
 ​
 ### **Color Scheme:**
 
@@ -125,21 +125,58 @@ Finally the core font color is pure white. This is not only for contract but als
 
 ### **Typography**
 ​
-I was aiming for a sci-fi looks and feel without going overboard and alianting users
-The logo and heading use Exo 2 font
-Arial is used as a fallback.
+I was aiming for a sci-fi look and feel without going overboard and alianting users.
+
+After much searching I chose https://fonts.google.com/specimen/Exo+2
+
+I feel it strikes the right balance between readability and a modern futuristic look.
+
+It's used with a bold weight of 800, which is unusual but it was a conscious design choice to have a chunky industry look across the entire site.
+
+Sans-serif is used as a fallback.
 
 
 ## **Site-Wide Features**
 ​
 ### **Site Logo**
 
-The page logo embraces a simple sci-fi astectic
-Using Exo 2 font to look modern/futurist while still highly readable.
-I used a transition on a globe icon to act as the "O" in One. This globe icon is used throughout the sites images as an anchor to build fimiliiarty
+![MCO Logo](./docs/images/mco-logo.png)
+
+* The page logo embraces a simple sci-fi astectic.
+* Using Exo 2 font to look modern/futurist while still highly readable.
+* The white text has a black drop shadow to add some depth.
+* Globe Icon is used in place of the 'O' in One
+* Simple 3d rotate on globe to be memorable but not anoyingly frequent
+* Size scales down for lower res screens
 
 ### **Navigation Bar**
-This is an example of the features section, your going to talk about each section of the page and what it offers for the navbar for example
+
+Across both mobile and desktop the header has at graduation from blue to trasparent. This is to signify the transition from the surface of a planet to the atmosphere and allow a blend from the header into the body.
+
+#### *Desktop*
+
+The desktop navigation is done via simple hyperlinks across the top right of the page.
+
+* Exo 2 Font
+* Font size increase for higher width screens
+* Small drop shadow to add depth
+* Double dash indicates active page
+
+![Navigation bar](./docs/images/nav1.png)
+
+When a user mouses over the links they chnage orange and have a white glow
+
+![Navigation bar2](./docs/images/nav2.png)
+
+#### *Mobile/Tablet*
+
+On lower resolution screens the menu is hidden and replaced with a "burger" menu. I had played with other types of icons but felt they led to a confusing experince for the user.
+
+![Navigation mobile](./docs/images/nav-mobile1.png)
+
+Once clicked there is dropdown list
+
+![Navigation expand](./docs/images/nav-mobil21.png)
 
 
 ### **Page Background**
@@ -150,7 +187,9 @@ I tried different solid colors and images but they were either too flat or far t
 
 Finally I created a small image and and added random pixels, this image is repeated across x/y for a starfield background.
 
+### **Footer**
 
+The absence of a footer is a deliberate design choice as I felt this type of site would not have one
 ​
 ## **Individual Page Content features**
 
