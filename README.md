@@ -12,7 +12,7 @@ The objective of the site is to capture the attention of possible colonists, pro
 ![Main Page](./docs/images/Main-page-amir-trans.webp)
 
 
-#### [The live website is here](https://will-griffiths-ireland.github.io/Mars-Colony-One/)​
+#### [The deployed website is here on GitHub Pages](https://will-griffiths-ireland.github.io/Mars-Colony-One/)​
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -38,10 +38,13 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Trip Page Content***](#trip-page-content)
     * [***FAQ Page Content***](#faq-page-content)
     * [***Sign-up Page Content***](#sign-up-page-content)
-1. [**Future-Enhancements**](#future-enhancements)
+
 1. [**Testing Phase**](#testing-phase)
 1. [**Deployment**](#deployment)
 1. [**Technology**](#technology)
+1. [**Future-Enhancements**](#future-enhancements)
+    * [***User Enhancements***](#user_enhacements)
+    * [***Internal Enhancements***](#internal_enhacements)
 1. [**Credits**](#credits)
     * [**Honorable mentions**](#honorable-mentions)
     * [**General reference**](#general-reference)
@@ -67,7 +70,7 @@ I gave a lot of thought to producing a site that was an example of something a l
 * Users interested in new work opportunities
 * Users interested in a new life challenge
 * Users not sure what to do with their life (adolescents)
-* Users previously involved in work within challanging environments
+* Users previously involved in work within challenging environments
 * Users formally involved in space industry
 
 ### **User Stories:**
@@ -99,7 +102,7 @@ My aims for the color scheme​.
 
 * High contrast
 * Complimentary colors
-* Dark/space theme
+* Dark/space/planet theme
 
 I leveraged https://coolors.co/ during the process.
 
@@ -185,7 +188,7 @@ Once clicked there is dropdown list
 
 At first I used pure black as the background for all pages but it didn't have the right feel/depth
 
-I tried different solid colors and images but they were either too flat or far too busy for my astetic.
+I tried different solid colors and images but they were either too flat or far too busy for my esthetic.
 
 Finally I created a small image and and added random pixels, this image is repeated across x/y for a starfield background.
 
@@ -239,86 +242,102 @@ The mission page gets right to the point and explains to the user what this site
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/main-page.webp)
+![Main mission page desktop](./docs/images/main-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/main-page-mobile.webp)
+![Main mission page mobile](./docs/images/main-page-mobile.webp)
 
 
 ### **Mars Page Content**
 
-* This is the info about the mars page
+* This page centers around the key activities that will take place
+* Design is anchored to the mars image with 4 quadrants
+* Short and pithy content that takes seconds to digest
+* Icons are used to compliment the areas of focus
+* Animations are limited to the full page fade in
+* Reduced sizing keeps the layout with tweaks to font sizing
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/mars-page.webp)
+![Mars page desktop](./docs/images/mars-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/mars-page-mobile.webp)
+![Mars page mobile](./docs/images/mars-page-mobile.webp)
 
 ### **Ship Page Content**
 
-* This is the info about the ship page
+* This page describes both vessels that will be used and their incredible technology
+* Stock image of rocket was edited with MCO icons added
+* Jagger I image was created in paint.net
+* Mobile/tablet resolutions change to a different layout and sizing
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/ship-page.webp)
+![ship page desktop](./docs/images/ship-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/ship-page-mobile.webp)
+![ship page desktop](./docs/images/ship-page-mobile.webp)
 
 ### **Trip Page Content**
 
-* This is the info about the trip page
+* The trip page gives high level details on the journey
+* Gives users confidence in how easy it would be to go
+* Earth and Mars images play a crucial visual role
+* Animation of the trip is done with a scanner blip showing moving from Earth to Mars
+* Mobile/tablet resolutions change to a different layout and sizing
+
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/trip-page.webp)
+![trip page desktop](./docs/images/trip-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/trip-page-mobile.webp)
+![trip page mobile](./docs/images/trip-page-mobile.webp)
 
 ### **FAQ Page Content**
 
-* This is the info about the faq page
+* The FAQ page is not part of the core navigation flow
+* Its a demonstration and its content is a nod at dark sci-fi humor
+* Q&A are positioned over an image of somebody on Mars
+* Mobile/tablet resolutions have changes to sizing and image position
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/faq-page.webp)
+![faq page desktop](./docs/images/faq-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/faq-page-mobile.webp)
+![faq page mobile](./docs/images/faq-page-mobile.webp)
 
 ### **Sign-up Page Content**
 
-* This is the info about the sign-up page
+* This is page where users can submit their contact details for future followup
+* Simple form layout with styles tweaked to match the rest of the site.
+* Stock suit image edited with MCO icon
+* Entices users to submit and be the next person with their name on a suit.
 
 #### *Desktop @1080p Example*
 
-![Mission page desktop](./docs/images/sign-up-page.webp)
+![Sign-up page desktop](./docs/images/sign-up-page.webp)
 
 #### *Mobile Example*
 
-![Mission page desktop](./docs/images/sign-up-page-mobile.webp)
+![Sign-up page desktop](./docs/images/sign-up-page-mobile.webp)
 
 ---
 ​
-## **Future-Enhancements**
-​
-* user account creation
-* user application tracking
-* interactive 3d model of Jagger I Ship
+
 
 ​
 ​
 ## **Testing Phase**
 
-Testing was performed throughout development of the site and led to design evolution as I gained deeper understanding of what was possible.
+Testing was performed throughout development of the site and led to design evolution as I gained deeper understanding of what was possible and how it looked.
+Chrome was the main environment I worked in along with its Devtools
 
 * Images displaying correctly
 * Text displaying correctly
@@ -348,7 +367,7 @@ Testing was performed throughout development of the site and led to design evolu
 * Validators - Here include images from w3c html validator and css jigsaw (jshint for js and pep8 for python) and the results that came from it
 ​
 ​
-## **Bugs**
+## **Defects**
 ​
 We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
 ​
@@ -383,10 +402,27 @@ My approach was to start from a blank canvas really try to build out my vision w
 
 ----
 
+## **Future-Enhancements**
+
+I am very pleased with how the site has turned out​ but I know there is always room for improvement and there are a number of things I would enhance
+
+### **User Enhancements**
+
+* It woulds be great to implement full user account creation so users can see if/when they will be contacted.
+* Expanded user data collection to get more details on the applicant so that and automated review process can be implemented as a first pass screening
+* A fully interactive 3d version fo the colony ship 'Jaggar I' would be a great addition to the site. I had started some basic work in Blender on a model but the complexities of that and the javascript to display it left it beyond the scope for this initial project.
+
+### **Internal Enhancements**
+
+* I would do major code refactoring to make it as 'DRY' and well structured as possible. This would improve the ability for other developers to maintain it and also reduce bandwidth due to decreased file sizes. I appreciate that my knowledge evolved greatly during the first project and I will focus on structure and optimization right from the start going forward.
+* Load smaller more compressed images at lower resolutions. This is another area I appreciate more now, in a heavily used production site every KB counts and not only means users see the content faster but also that costly bandwidth usage minimized
+
 ## **Credits**
 ### **Honorable mentions**
 ​
-Thanks to my mentor Richard
+Thanks to my mentor Richard who provided valuable input!
+
+Thanks to my partner Emma who is always so supportive!
 ​
 ### **Content:**
 ​
