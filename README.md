@@ -2,10 +2,10 @@
 # Mars Colony One
 ## **Site Overview**
 
-This site is a demonstration of my front end design skills in pure HTML and CSS.
+This site is a demonstration of my front-end design skills in HTML and CSS.
 
-The site is designed for a fictional company called StarSeed industries, who are a market leader in space exploration.
-The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One"
+The site is designed for a **fictional** company called StarSeed industries, who are a market leader in space exploration.
+The company is starting recruitment for civilian colonists to be part of StarSeeds Mars colony "Mars Colony One".
 The objective of the site is to capture the attention of possible colonists, provide details about the mission, and collect contact information from visitors that wish to apply.
 ​
 ![Intro Page](./docs/images/intro-page-amir-trans.webp)
@@ -38,8 +38,8 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Trip Page Content***](#trip-page-content)
     * [***FAQ Page Content***](#faq-page-content)
     * [***Sign-up Page Content***](#sign-up-page-content)
-
 1. [**Testing Phase**](#testing-phase)
+    * [***Validators***](#validators)
 1. [**Deployment**](#deployment)
 1. [**Technology**](#technology)
 1. [**Future-Enhancements**](#future-enhancements)
@@ -47,7 +47,6 @@ The objective of the site is to capture the attention of possible colonists, pro
     * [***Internal Enhancements***](#internal_enhacements)
 1. [**Credits**](#credits)
     * [**Honorable mentions**](#honorable-mentions)
-    * [**General reference**](#general-reference)
     * [**Content**](#content)
     * [**Media**](#media)
 
@@ -61,7 +60,7 @@ The objective of the site is to capture the attention of possible colonists, pro
 I gave a lot of thought to producing a site that was an example of something a large company/corp would produce.
 
 * The site aims to be a sleek promotion of their project/mission
-* My focus is to captivate the user and keep them wanting more
+* My focus is to captivate the user and sell the dream
 * My design is bold and minimalist
 
 ### **Target Audiences:**
@@ -147,11 +146,11 @@ Sans-serif is used as a fallback.
 
 ![MCO Logo](./docs/images/mco-logo.png)
 
-* The page logo embraces a simple sci-fi astectic.
+* The page logo embraces a simple sci-fi esthetic.
 * Using Exo 2 font to look modern/futurist while still highly readable.
 * The white text has a black drop shadow to add some depth.
 * Globe Icon is used in place of the 'O' in One
-* Simple 3d rotate on globe to be memorable but not anoyingly frequent
+* Simple 3d rotate on globe to be memorable but not annoyingly frequent
 * Size scales down for lower res screens
 
 ### **Navigation Bar**
@@ -315,9 +314,9 @@ The mission page gets right to the point and explains to the user what this site
 
 ### **Sign-up Page Content**
 
-* This is page where users can submit their contact details for future followup
+* This is the page where users can submit their contact details for future followup.
 * Simple form layout with styles tweaked to match the rest of the site.
-* Stock suit image edited with MCO icon
+* Stock suit image edited with MCO icon to be really aspirational.
 * Entices users to submit and be the next person with their name on a suit.
 
 #### *Desktop @1080p Example*
@@ -329,28 +328,40 @@ The mission page gets right to the point and explains to the user what this site
 ![Sign-up page desktop](./docs/images/sign-up-page-mobile.webp)
 
 ---
-​
-
-
-​
-​
 ## **Testing Phase**
 
-Testing was performed throughout development of the site and led to design evolution as I gained deeper understanding of what was possible and how it looked.
-Chrome was the main environment I worked in along with its Devtools
+Testing was performed throughout development of the site and led to a design evolution as I gained deeper understanding of what was possible and how it looked.
+Chrome was the main environment I worked in along with its Devtools.
+
+Thankfully with a relatively simple website such as this the testing isn't too complex and boils down to things looking like they should and links working.
+The biggest issue is cross browser compatibility
 
 * Images displaying correctly
 * Text displaying correctly
 * Animations displaying correctly
+* Text readable
+* Layout responsive
+* Links working
+
+All tests were performed across Chrome(Windows), Firefox(Windows), Safari(IpadOS), Chrome(Android) and Samsung Internet(Android)
+Hardware include Windows 10 PC, Samsung Galaxy S22 Ultra, and Apple Ipad Pro
 
 ### **Validators**
 
 #### *HTML Validator*
 
+To save screen space I've summeriesed the results
+
 | File | Result | Comments |
 | ----------- | ----------- | ---- |
-| index.html | Pass | N\A|
-| Paragraph | Text |
+| index.html | Pass | N\A |
+| Paragraph | Text | N\A |
+| Paragraph | Text | N\A |
+| Paragraph | Text | N\A |
+| Paragraph | Text | N\A |
+| Paragraph | Text | N\A |
+
+The only error I had was due to using a div within a label
 
 #### *CSS Validator*
 
@@ -358,6 +369,8 @@ Chrome was the main environment I worked in along with its Devtools
 | ----------- | ----------- | ---- |
 | index.html | Pass | N\A |
 | Paragraph | Text | N\A |
+
+#### *CSS Validator*
 
 ​
 * Responsiveness - How do you test this, dev tools? checking on multiple devices?
@@ -368,43 +381,63 @@ Chrome was the main environment I worked in along with its Devtools
 ​
 ​
 ## **Defects**
-​
-We always have bugs in development, a few bullet points here to talk about bugs you found and how you fixed them, in later projects this will be more detailed
-​
-* Issue - When on mobile the user had horizontal scroll with items overflowing
-* Cause - The images had absolute positioning and caused them to go off screen
-* Resolution - Changed the width of the image to stay within the confines of the screen.
-​
-***
+
+Being a basic HTML/CSS site there were not many true bugs/defects.
+I chalked most of my issues down to the learning process. For example the bug I had in float was resolved by learning not to use float at all.
+
+### **Resolved**
+
+### **Unresolved**
+
+*Safari*
+
+* Odd animation glitch is seen in the top left of any page when it loads
+* Clears up in a second and has no further impact to user experience
+* No other browsers have this issue, it wasn't happening in Safari at first, not sure of the cause
+
+*Lighthouse*
+
+* During page tests in Lighthouse I was repeated getting a total failure and no results shown
+* https://dev.to/roman_guivan_17680f142e28/google-lighthouse-failing-with-nolcp-error-1mjo
+* Tried basic things and then made changes to opacity in animations seems to have resolved it
+
+
+
 ## **Deployment**
-I deployed the page on GitHub pages via the following procedure: -
+I deployed the page on GitHub pages via the following the standard procedure: -
 ​
-1. From the project's [repository](pageurl), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/Will-Griffiths-Ireland/Mars-Colony-One), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 ​
-You  can find the live site via the following URL - [live webpage](https://yoururlhere)
-***
+You can find the live site via the following URL - [live webpage](https://will-griffiths-ireland.github.io/Mars-Colony-One/)
+
+Deployment to another host is also possible
+
+1. From the project's [repository](https://github.com/Will-Griffiths-Ireland/Mars-Colony-One), click **Code**.
+2. Under the local tab click *Download Zip*.
+3. Extract the files and copy them over to a webserver of your choice.
+
+---
 ​
 ## **Technology**
 ​
-These are the technoligies used for this project.
+These are the technologies used for this project.
 
-​
 - HTML5
 - CSS3
 - Javascript (Only for fontawesome)
 - Powerpoint (Initial Logo Creation) 
 - Paint.net (Image editing/sizing/compression)
-
-My approach was to start from a blank canvas really try to build out my vision without using a lot of content​
+- Github for version control and deployment
+- Gitpod for development
 
 ----
 
 ## **Future-Enhancements**
 
-I am very pleased with how the site has turned out​ but I know there is always room for improvement and there are a number of things I would enhance
+I know there is always room for improvement and there are a number of things I would enhance. I was very much learning as I built and avoided copying code from examples (one exception noted in credits) so this did result in a lot of trial and error and superfluous css code.
 
 ### **User Enhancements**
 
@@ -422,7 +455,7 @@ I am very pleased with how the site has turned out​ but I know there is always
 ​
 Thanks to my mentor Richard who provided valuable input!
 
-Thanks to my partner Emma who is always so supportive!
+Thanks to my partner Emma who is always so supportive! (she is still laughing at anyone naming something GIT, yes I did show her the site, it didn't help that the comedian Phil Wang has done a promo for them!)
 ​
 ### **Content:**
 ​
