@@ -218,7 +218,13 @@ I used index.html as an intro page to capture the users attention and generate a
 * Core site logo is introduced on a grand scale
 * Link to skip to mission page for return visitors
 
+#### *Desktop @1080p Example*
+
 ![MCO intro page](./docs/images/intro-page.webp)
+
+#### *Mobile Example*
+
+![MCO intro page mobile](./docs/images/intro-page-mobile.webp)
 
 ### **Mission Page Content**
 
@@ -226,31 +232,79 @@ The mission page gets right to the point and explains to the user what this site
 
 * Animations bring content in from off screen left/right
 * Colonist image was edited with circular transparency to allow a drop shadow filter. This is the blend the imagery of plant mars and its outer halo with the concept of exploration,
-* The Starseed logo relates to the company that is running this mission and brings the credibility of a well known brand
-* The founder Stranto Marlini is a household name so his image and quote bring futher credibility to the imporance of the mssion
+* The StarSeed logo relates to the company that is running this mission and brings the credibility of a well known brand. Again circular framing of the logo continues the theme
+* The founder Stranto Marlini is a household name so his image and quote bring further credibility to the importance of the mission
+* The founders image is also cut circular to allow a transparent background, a drop shadow filter is applied to the image to give it more impact.
+* At lower mobile resolutions the layout is changed and font sizes are reduced
 
-​
-![Mission page](./docs/images/main-page.webp)
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/main-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/main-page-mobile.webp)
+
 
 ### **Mars Page Content**
 
 * This is the info about the mars page
 
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/mars-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/mars-page-mobile.webp)
+
 ### **Ship Page Content**
 
 * This is the info about the ship page
+
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/ship-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/ship-page-mobile.webp)
 
 ### **Trip Page Content**
 
 * This is the info about the trip page
 
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/trip-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/trip-page-mobile.webp)
+
 ### **FAQ Page Content**
 
 * This is the info about the faq page
 
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/faq-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/faq-page-mobile.webp)
+
 ### **Sign-up Page Content**
 
 * This is the info about the sign-up page
+
+#### *Desktop @1080p Example*
+
+![Mission page desktop](./docs/images/sign-up-page.webp)
+
+#### *Mobile Example*
+
+![Mission page desktop](./docs/images/sign-up-page-mobile.webp)
 
 ---
 ​
@@ -264,16 +318,27 @@ The mission page gets right to the point and explains to the user what this site
 ​
 ## **Testing Phase**
 
-Testing was perfomred throught development of the site and led to design evolution as I gained deeper understanding of what was possible.
+Testing was performed throughout development of the site and led to design evolution as I gained deeper understanding of what was possible.
+
+* Images displaying correctly
+* Text displaying correctly
+* Animations displaying correctly
 
 ### **Validators**
 
-
+#### *HTML Validator*
 
 | File | Result | Comments |
 | ----------- | ----------- | ---- |
 | index.html | Pass | N\A|
 | Paragraph | Text |
+
+#### *CSS Validator*
+
+| File | Result | Comments |
+| ----------- | ----------- | ---- |
+| index.html | Pass | N\A |
+| Paragraph | Text | N\A |
 
 ​
 * Responsiveness - How do you test this, dev tools? checking on multiple devices?

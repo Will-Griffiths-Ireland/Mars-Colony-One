@@ -1,11 +1,5 @@
-/* Stylesheet for ship.html which resizes based on wide,standard or compact/mobile resolutions*/
-
-/*Import Exo 2 font from google fonts*/
-
+/**Import Exo 2 font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
-
-/* Remove all margins - they are the enemy and must be stopped*/
-
 *{
     margin:0;
 }
