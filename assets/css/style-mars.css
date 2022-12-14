@@ -246,7 +246,7 @@ h2 {
         padding: .1rem;
         margin: 0;
         letter-spacing: normal;
-        font-size: .8rem;
+        font-size: .7rem;
         color: #ffffff;
         display: list-item;
         text-align: center;
@@ -258,22 +258,22 @@ h2 {
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: .8rem;
         padding: .1rem;
     }
 
     p {
-        font-size: .8rem;
+        font-size: .7rem;
         padding: .1rem;
     }
 
     #quad1 {
         position: absolute;
         margin: 0;
-        width: 40%;
-        height: 30%;
-        top: 15%;
-        left: 5%;
+        width: 45%;
+        height: 40%;
+        top: 10%;
+        left: 2%;
         background-color: rgba(62, 146, 204, .3);
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -284,10 +284,10 @@ h2 {
     #quad2 {
         position: absolute;
         margin: 0;
-        width: 40%;
-        height: 30%;
-        top: 15%;
-        right: 5%;
+        width: 45%;
+        height: 40%;
+        top: 10%;
+        right: 2%;
         background-color: rgba(116, 18, 29, .3);
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -297,10 +297,10 @@ h2 {
     #quad3 {
         position: absolute;
         margin: 0;
-        width: 40%;
-        height: 30%;
-        bottom: 15%;
-        left: 5%;
+        width: 45%;
+        height: 40%;
+        bottom: 5%;
+        left: 2%;
         background-color: rgba(116, 18, 29, .3);
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -310,10 +310,10 @@ h2 {
     #quad4 {
         position: absolute;
         margin: 0;
-        width: 40%;
-        height: 30%;
-        bottom: 15%;
-        right: 5%;
+        width: 45%;
+        height: 40%;
+        bottom: 5%;
+        right: 2%;
         background-color: rgba(62, 146, 204, .3);
         border-radius: 5%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
