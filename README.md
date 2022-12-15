@@ -59,9 +59,9 @@ The objective of the site is to capture the attention of possible colonists, pro
 
 I gave a lot of thought to producing a site that was an example of something a large company/corp would produce.
 
-* The site aims to be a sleek promotion of their project/mission
-* My focus is to captivate the user and sell the dream of living on Mars
-* My design is bold and minimalist
+* Sleek promotion of their project/mission
+* Captivate the user and sell the dream of living on Mars
+* Bold minimalist design
 * Highly responsive from ultra-wide desktops down to mobile phones
 
 ### **Target Audiences:**
@@ -376,20 +376,28 @@ To save screen space I've summarized the results
 | ship.html | 1 Error | Div inside Label |
 | trip.html | 1 Error | Div inside Label |
 | faq.html | 1 Error | Div inside Label |
-| faq.html | 1 Error | Div inside Label |
+| sign-up.html | 1 Error | Div inside Label |
 
-The only error I had was due to using a div within a label. This was part of the navigation menu code for mobile so comes up on
+The only error I had was due to using a div within a label. This was part of the code I built from an example. I had done extensive site testing before using the validator, my attempts at correcting error resulted in layout errors, so I have left it. Running validators will be 1st stage testing for all my sites in the future
 
 #### *CSS Validator*
 
 | File | Result | Comments |
 | ----------- | ----------- | ---- |
-| index.html | Pass | N\A |
-| Paragraph | Text | N\A |
+| intro.css | 1 Warning | Warning about color & background being set the same but this was intentional and part of fading in text |
+| style-main.css | Pass | N\A |
+| style-mars.css | Pass | N\A |
+| style-ship.css | Pass | N\A |
+| style-trip.css | 1 Error | Property scale doesn't exist  |
+| style-faq.css | Text | N\A |
+| style-sign-up.css | Text | N\A |
+
+The error in style-trip.css had me scratching my head. It was part of the page animation and I could see it working as intended (except in 1 browser). I did some research and found that quite often the validators are behind and are not aware of newer properties.
+Detail on the property can be found here https://developer.mozilla.org/en-US/docs/Web/CSS/scale
 
 #### *Lighthouse Results*
 
-The call-out on lighthouse results is I got hit for image cache policy and also for contrast on the form, but I have hover styles that change the input boxes when user is typing so black on white should be full contrast
+The call-out on lighthouse results is I got hit for image cache policy and also for contrast on the form, but I have hover/active styles that change the input boxes when user is typing so black on white should be full contrast
 
 
 *Desktop*
@@ -414,7 +422,7 @@ The call-out on lighthouse results is I got hit for image cache policy and also 
 ​
 ## **Defects**
 
-Being a basic HTML/CSS site there were not many true bugs/defects.
+Being a basic HTML/CSS site there were not many true bugs/defects from my testing phase.
 I chalked most of my issues down to the learning process during development.
 
 ### **Resolved**
@@ -425,14 +433,22 @@ I chalked most of my issues down to the learning process during development.
 
 * Odd animation glitch is seen in the top left of any page when it loads
 * Clears up in a second and has no further impact to user experience
-* No other browsers have this issue, it wasn't happening in Safari at first, not sure of the cause
+* No other browsers have this issue, it wasn't happening in Safari at first, not sure of the cause but I'll keep investigating
 
 *Lighthouse*
 
 * During page tests in Lighthouse I was repeatedly getting a total failure and no results shown due to no lcp
+* My Mentor Richard helped me look at this but he had not seen it happen before
+* The closest explanation we found was this
 * https://dev.to/roman_guivan_17680f142e28/google-lighthouse-failing-with-nolcp-error-1mjo
 * Tried basic things and then made changes to opacity in animations seems to have resolved it and got results on all pages
 
+*Samsung Internet*
+
+* Scale property not implemented yet
+* trip.html page has an animation that uses this
+* It's only part of the animation so looks ok without it anyway
+* https://developer.mozilla.org/en-US/docs/Web/CSS/scale
 
 
 ## **Deployment**
@@ -465,6 +481,7 @@ These are the technologies used for this project.
 - Paint.net (Image editing/sizing/compression)
 - Github for version control and deployment
 - Gitpod for development
+- FontAwesome for Icons
 
 ----
 
@@ -480,13 +497,13 @@ I know there is always room for improvement and there are a number of things I w
 
 ### **Internal Enhancements**
 
-* I would do major code refactoring to make it as 'DRY' and well structured as possible. This would improve the ability for other developers to maintain it and also reduce bandwidth due to decreased file sizes. I appreciate that my knowledge evolved greatly during the first project and I will focus on structure and optimization right from the start going forward.
+* I would do major code refactoring to make it as 'DRY' as possible. This would improve the ability for other developers to maintain it and also reduce bandwidth due to decreased file sizes. I appreciate that my knowledge evolved greatly during the first project and I will focus on structure and optimization right from the start going forward.
 * Load smaller more compressed images at lower resolutions. This is another area I appreciate more now, in a heavily used production site every KB counts and not only means users see the content faster but also that costly bandwidth usage minimized
 
 ## **Credits**
 ### **Honorable mentions**
 ​
-Thanks to my mentor Richard who provided valuable input and direction! I look forward to melting his mind during the next projects
+Thanks to my mentor Richard who provided valuable input and direction! I look forward to melting his mind during the next projects.
 
 Thanks to my partner Emma who is always so supportive! (she is still laughing at anyone naming something GIT, yes I did show her the GitHub site, it didn't help that the comedian Phil Wang has done a promo for them!)
 ​
@@ -497,5 +514,18 @@ This was used as a starting point for the advanced animations but I made extensi
   
 ### **Media:**
 ​
+Outside of the below, media was self produced.
+
 I used a number of images from https://images.nasa.gov/ and https://unsplash.com/
+
+| Source | Image Detail | URL |
+| ---- | ---- | ---- |
+| NASA | Concept art for person on mars | https://images.nasa.gov/details-PIA23900 |
+| NASA | Mars Photo | https://mars.nasa.gov/resources/6453/mars-planet-globe/ |
+| NASA | Rocket Lift Off | https://images.nasa.gov/details-KSC-20221126-PH-KMO03_0021 |
+| Unsplash | Space Suit | https://images.nasa.gov/details-nicole-manns-launch-and-entry-suit_52233926084_o |
+| Unsplash | Headshot | https://unsplash.com/photos/6anudmpILw4 |
+| Unsplash | Person on sand | https://unsplash.com/photos/Smeer5L0tXM |
+| Unsplash | Planet Earth | https://unsplash.com/photos/vhSz50AaFAs |
+
 
