@@ -60,8 +60,9 @@ The objective of the site is to capture the attention of possible colonists, pro
 I gave a lot of thought to producing a site that was an example of something a large company/corp would produce.
 
 * The site aims to be a sleek promotion of their project/mission
-* My focus is to captivate the user and sell the dream
+* My focus is to captivate the user and sell the dream of living on Mars
 * My design is bold and minimalist
+* Highly responsive from ultra-wide desktops down to mobile phones
 
 ### **Target Audiences:**
 
@@ -114,11 +115,11 @@ In contrast to the rich orange of mars I have used pure black to match with the 
 
 ![Space Black Color](./docs/images/black.png)
 
-I've also used a light blue which I see as introducing a link to planets atmospheres and a connection to life, water, and hope. I feel the use brings balance to the overall feel of the site. Used in a graduated form across the header to keep that atmospheeric theme across all pages.
+I've also used a light blue which I see as introducing a link to planets atmospheres and a connection to life, water, and hope. I feel the use brings balance to the overall feel of the site. Used in a graduated form across the header to keep that atmospheric theme across all pages.
 
 ![Dark Blue Color](./docs/images/light-blue.png)
 
-Used sparingly and with opacity, I have a plum colour. This was to add a little varation where it felt right.
+Used sparingly and with opacity, I have a plum colour. This was to add a little variation where it felt right.
 
 ![Plum Color](./docs/images/plum.png)
 
@@ -335,18 +336,31 @@ The mission page gets right to the point and explains to the user what this site
 Testing was performed throughout development of the site and led to a design evolution as I gained deeper understanding of what was possible and how it looked.
 Chrome was the main environment I worked in along with its Devtools.
 
+I was somewhat obsessive about making the page scale from ultra-wide screens right down to mobiles.
+
 Thankfully with a relatively simple website such as this the testing isn't too complex and boils down to things looking like they should and links working.
-The biggest issue is cross browser compatibility
+The biggest issue is cross browser compatibility and responsiveness.
 
-* Images displaying correctly
-* Text displaying correctly
-* Animations displaying correctly
-* Text readable
-* Layout responsive
-* Links working
+I am learning more about testing and how to implement a structured test approach for future projects to be far more specific in my test plans.
 
-All tests were performed across Chrome(Windows), Firefox(Windows), Safari(IpadOS), Chrome(Android) and Samsung Internet(Android)
-Hardware include Windows 10 PC, Samsung Galaxy S22 Ultra, and Apple Ipad Pro
+All tests were performed across Chrome(Windows), Firefox(Windows), Edge(windows), Safari(IpadOS), Chrome(Android) and Samsung Internet(Android)
+Hardware included a Windows 10 PC, Samsung Galaxy S22 Ultra, and an Apple Ipad Pro.
+
+
+
+| Test Type | Chrome(Windows) | Firefox(Windows) | Edge(windows) | Safari(IpadOS) | Chrome(Android) | Samsung Internet(Android) |
+| ----------- | ----------- | ---- | ---- | ----- | ----- | ---- |
+| Text Displays | Pass | Pass | Pass | Pass | Pass | Pass |
+| Text Correct Size | Pass | Pass | Pass | Pass | Pass | Pass |
+| Images Display | Pass | Pass | Pass | Pass | Pass | Pass |
+| Images Maintain Aspect Ratio | Pass | Pass | Pass | Pass | Pass | Pass |
+| Links Work | Pass | Pass | Pass | Pass | Pass | Pass |
+| Responsive | Pass | Pass | Pass | Pass | Pass | Pass |
+| Animations Work | Pass | Pass | Pass |  P Fail | Pass |  P Fail |
+| Form Works | Pass | Pass | EPass | Pass | Pass | Pass |
+
+The 2 partial fails are covered in the defects section
+
 
 ### **Validators**
 
@@ -357,13 +371,14 @@ To save screen space I've summarized the results
 | File | Result | Comments |
 | ----------- | ----------- | ---- |
 | index.html | Pass | N\A |
-| Paragraph | Text | N\A |
-| Paragraph | Text | N\A |
-| Paragraph | Text | N\A |
-| Paragraph | Text | N\A |
-| Paragraph | Text | N\A |
+| main.html | 1 Error | Div inside Label |
+| mars.html | 1 Error | Div inside Label |
+| ship.html | 1 Error | Div inside Label |
+| trip.html | 1 Error | Div inside Label |
+| faq.html | 1 Error | Div inside Label |
+| faq.html | 1 Error | Div inside Label |
 
-The only error I had was due to using a div within a label
+The only error I had was due to using a div within a label. This was part of the navigation menu code for mobile so comes up on
 
 #### *CSS Validator*
 
@@ -400,7 +415,7 @@ The call-out on lighthouse results is I got hit for image cache policy and also 
 ## **Defects**
 
 Being a basic HTML/CSS site there were not many true bugs/defects.
-I chalked most of my issues down to the learning process. For example the bug I had in float was resolved by learning not to use float at all.
+I chalked most of my issues down to the learning process during development.
 
 ### **Resolved**
 
@@ -414,9 +429,9 @@ I chalked most of my issues down to the learning process. For example the bug I 
 
 *Lighthouse*
 
-* During page tests in Lighthouse I was repeated getting a total failure and no results shown
+* During page tests in Lighthouse I was repeatedly getting a total failure and no results shown due to no lcp
 * https://dev.to/roman_guivan_17680f142e28/google-lighthouse-failing-with-nolcp-error-1mjo
-* Tried basic things and then made changes to opacity in animations seems to have resolved it
+* Tried basic things and then made changes to opacity in animations seems to have resolved it and got results on all pages
 
 
 
@@ -445,7 +460,8 @@ These are the technologies used for this project.
 - HTML5
 - CSS3
 - Javascript (Only for fontawesome)
-- Powerpoint (Initial Logo Creation) 
+- Powerpoint (Initial Logo Creation)
+- Balsamiq for wireframes
 - Paint.net (Image editing/sizing/compression)
 - Github for version control and deployment
 - Gitpod for development
@@ -470,15 +486,16 @@ I know there is always room for improvement and there are a number of things I w
 ## **Credits**
 ### **Honorable mentions**
 ​
-Thanks to my mentor Richard who provided valuable input!
+Thanks to my mentor Richard who provided valuable input and direction! I look forward to melting his mind during the next projects
 
-Thanks to my partner Emma who is always so supportive! (she is still laughing at anyone naming something GIT, yes I did show her the site, it didn't help that the comedian Phil Wang has done a promo for them!)
+Thanks to my partner Emma who is always so supportive! (she is still laughing at anyone naming something GIT, yes I did show her the GitHub site, it didn't help that the comedian Phil Wang has done a promo for them!)
 ​
 ### **Content:**
 ​
 I used code from https://alvarotrigo.com/blog/hamburger-menu-css/ example 1
-This was used as a starting point for the advanced animations but I made extensive changes to make the menu fit my sites style
+This was used as a starting point for the advanced animations but I made extensive changes to make the menu fit my sites style.
   
 ### **Media:**
 ​
-Links to the locations of images if you've used them from an online source!
+I used a number of images from https://images.nasa.gov/ and https://unsplash.com/
+

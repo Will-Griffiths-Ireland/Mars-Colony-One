@@ -235,7 +235,7 @@ h2 {
     #next-page {
         position: absolute;
         width: 100vw;
-        bottom: 3vh;
+        bottom: 0vh;
         z-index: 100;
         font-size: 1rem;
 
@@ -270,12 +270,12 @@ h2 {
     #quad1 {
         position: absolute;
         margin: 0;
-        width: 45%;
+        width: 42%;
         height: 40%;
         top: 10%;
-        left: 2%;
+        left: 1%;
         background-color: rgba(62, 146, 204, .3);
-        border-radius: 5%;
+        border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 
@@ -284,12 +284,12 @@ h2 {
     #quad2 {
         position: absolute;
         margin: 0;
-        width: 45%;
+        width: 47%;
         height: 40%;
         top: 10%;
-        right: 2%;
+        right: 1%;
         background-color: rgba(116, 18, 29, .3);
-        border-radius: 5%;
+        border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
     }
@@ -297,12 +297,12 @@ h2 {
     #quad3 {
         position: absolute;
         margin: 0;
-        width: 45%;
+        width: 47%;
         height: 40%;
         bottom: 5%;
-        left: 2%;
+        left: 1%;
         background-color: rgba(116, 18, 29, .3);
-        border-radius: 5%;
+        border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
     }
@@ -310,12 +310,12 @@ h2 {
     #quad4 {
         position: absolute;
         margin: 0;
-        width: 45%;
+        width: 47%;
         height: 40%;
         bottom: 5%;
-        right: 2%;
+        right: 1%;
         background-color: rgba(62, 146, 204, .3);
-        border-radius: 5%;
+        border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
     }
