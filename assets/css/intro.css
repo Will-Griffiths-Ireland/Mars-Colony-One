@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
 
-/*Intro page for manin site- desinged to draw the visitor into the experience*/
+/*Intro page for site- designed to draw the visitor into the experience*/
 
-/*page is desinged with a stepdown in font sizes for smaller screens*/
+/*page is designed with a stepdown in font sizes for smaller screens*/
 
 body {
     background-color: black;
@@ -11,8 +11,7 @@ body {
     background: url(../images/stars.png);
     background-position: center;
     background-size:initial;
-    background-repeat: repeat;
-    
+    background-repeat: repeat; 
 }
 
 .font-style{
@@ -37,6 +36,7 @@ a{color: inherit;}
     z-index: 300;
     display: block;
 }
+
 .skippy > a {
     color: #ffffff;
     display: block;
@@ -45,12 +45,7 @@ a{color: inherit;}
     text-align: center;
 }
 
-
-
-
-
 .planet-div {
-    
     position: absolute;
     background: url(../images/mars-intro-1000.webp);
     background-repeat: no-repeat;
@@ -72,7 +67,6 @@ a{color: inherit;}
     animation-timing-function: ease-in;
 }
 
-
 .text-in-1{
     position: absolute;
     top: 45vh;
@@ -83,7 +77,6 @@ a{color: inherit;}
     animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
-
 }
 
 .text-in-2{
@@ -108,7 +101,6 @@ a{color: inherit;}
     animation-duration: 4s;
     animation-name: text-fade-in-out;
     animation-fill-mode: forwards;
-    
 }
 
 .text-in-4{
@@ -128,11 +120,9 @@ a{color: inherit;}
 }
 
 @media screen and (max-width:1000px) {
-
     .text-in-4{
         font-size: 2rem;
     }
-
 }
 
 .text-in-5{
@@ -150,10 +140,7 @@ a{color: inherit;}
     animation-duration: 4s;
     animation-name: text-fade-in;
     animation-fill-mode: forwards;
-    
 }
-
-
 
 #logo-text{
     text-align: center;
@@ -195,8 +182,6 @@ a{color: inherit;}
     animation-fill-mode:forwards
 
 }
-
-
 
 @media screen and (max-width:1000px) {
     
@@ -253,7 +238,6 @@ a{color: inherit;}
         animation-iteration-count: infinite;
         animation-direction: alternate-reverse;
         animation-fill-mode:none
-    
     }
 }
 
@@ -269,12 +253,9 @@ a{color: inherit;}
     text-shadow: 0 0 1rem #000000;
 }
 
-/* fade in of rocket icon link*/
-
 .text-in-6{
     position:absolute;
     top: 70vh;
-    /* display: block; */
     width: 100vw;
     text-align: center;
     z-index: 10;
@@ -283,8 +264,7 @@ a{color: inherit;}
     animation-delay: 22s;
     animation-duration: 6s;
     animation-name: text-fade-in;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards; 
 }
 
 @media screen and (max-width:1000px) {
@@ -301,12 +281,7 @@ a{color: inherit;}
     animation-name: text-fade-in;
     animation-fill-mode: both;
     }
-
 }
-
-
-
-
 
 @keyframes planet-zoom {
     from {
@@ -317,12 +292,10 @@ a{color: inherit;}
         transform: scale(1);
         opacity: 1;
     }
-
     to {
         transform: scale(1);
         opacity: 1;
     }
-
 }
 
 @keyframes text-fade-in-out{
@@ -379,8 +352,6 @@ a{color: inherit;}
         color: rgba(223, 108, 36, 1);
         text-shadow: 0 0 1rem rgba(0, 0, 0, 1);
     }
-
-    
 }
 /*spin logo globe icon*/
 

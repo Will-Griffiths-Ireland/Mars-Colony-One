@@ -5,23 +5,19 @@
 }
 
  body{
-    
     font-family: 'Exo 2', sans-serif;
     background: url(../images/stars.png);
     background-position: center;
     background-size:auto;
     background-repeat: repeat;
     /*hide overflow on x axis that show up due to transfomr animations*/
-    overflow-x: hidden;
-    
+    overflow-x: hidden; 
 }
 
 /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: 5vh;
-
 }
 
 /* Class for setting primary orangey/red color*/
@@ -73,7 +69,6 @@
     background-position: center;
     background-size:auto;
     background-repeat: repeat;
-
 }
 
 /* simple gradiant for header */
@@ -96,10 +91,8 @@
 
     /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: .5vh;
-
 }
 
 h1{
@@ -182,7 +175,6 @@ p{
     left:5vw;
     width: 90vw;
     height: 30vh;
-
 }
 
 #jagger1{
@@ -205,11 +197,6 @@ p{
         animation-duration: 20s;
         animation-timing-function:ease-in-out
 }
-
-
-
-
-
 
 /*Code for burger menu*/
 
@@ -280,8 +267,7 @@ p{
     .menu-button-container {
       display: flex;
     }
-    
-  
+
     .menu {
       position: absolute;
       z-index: 200;
@@ -324,7 +310,6 @@ p{
         text-decoration: none;
         padding-right: 5vw;
     }
-
 }
 
 @media screen and (min-width: 1000px ){
@@ -355,7 +340,6 @@ p{
         text-align: center;
     }
 
-
     /* Hide checkbox used for compact view nav burger*/
     #menu-toggle{
         display: none;
@@ -382,7 +366,6 @@ p{
     }
 
     .menu a:hover {
-        /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color:#DF6C24;
     }
@@ -516,9 +499,7 @@ p{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
-
 }
 
 /* Simple 3d rotate on x axis of globe icon */
@@ -528,7 +509,6 @@ p{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-
 }
 @keyframes spinny{
     from{
@@ -547,7 +527,7 @@ p{
 
 @keyframes body-fade{
     from{
-        opacity: 0;
+        opacity: 0.01;
     }
     to{
         opacity: 1;
@@ -609,7 +589,3 @@ p{
 
     }
 }
-
-
-
-

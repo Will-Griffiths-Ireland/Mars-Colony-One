@@ -423,9 +423,11 @@ The call-out on lighthouse results is I got hit for image cache policy and also 
 ## **Defects**
 
 Being a basic HTML/CSS site there were not many true bugs/defects from my testing phase.
-I chalked most of my issues down to the learning process during development.
+I chalked most of my issues down to the learning process during development so didn't document them all.
 
 ### **Resolved**
+
+All issues I encountered during development were resolved
 
 ### **Unresolved**
 

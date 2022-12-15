@@ -9,23 +9,17 @@
 *{
     margin:0;
 }
-
-
  body{
-    
     font-family: 'Exo 2', sans-serif;
     background-color: #000000;
-    /*hide overflow on x axis that show up due to transfomr animations*/
+    /*hide overflow on x axis that show up due to transform animations*/
     overflow-x: hidden;
-    
 }
 
 /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: 5vh;
-
 }
 
 /* Class for setting primary orangey/red color*/
@@ -41,8 +35,6 @@
     margin: 0 auto;
 }
 
-
-
 /* div than encompases entire page which alows for fade transition*/
 
 .full-page-div{
@@ -56,7 +48,6 @@
     background-position: center;
     background-size:auto;
     background-repeat: repeat;
-
 }
 
 /* simple gradiant for header */
@@ -185,7 +176,6 @@ summary{
     top: 15vh;
 }
 
-
 /*Code for burger menu*/
 
 .menu {
@@ -255,7 +245,6 @@ summary{
     .menu-button-container {
       display: flex;
     }
-    
   
     .menu {
       position: absolute;
@@ -345,9 +334,8 @@ summary{
         font-size: 1rem;
         padding: .5rem;
     }
-    
 
-    /* Hide checkbox usesd for compact view nav burger*/
+    /* Hide checkbox used for compact view nav burger*/
     #menu-toggle{
         display: none;
     }
@@ -360,7 +348,6 @@ summary{
         padding: .5rem;  
     }
 
-
     .menu *{
         text-decoration: none;
         list-style-type: none;
@@ -370,17 +357,12 @@ summary{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
 
     .menu a:hover {
-        /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color:#DF6C24;
-
     }
-
-
 }
 
 @media screen and (min-width: 1400px){
@@ -435,7 +417,6 @@ summary{
         padding: .5rem;  
     }
 
-
     .menu *{
         text-decoration: none;
         list-style-type: none;
@@ -445,14 +426,8 @@ summary{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
-
-
 }
-
-
-
 
 /* Simple 3d rotate on x axis of globe icon */
 
@@ -461,7 +436,6 @@ summary{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-
 }
 @keyframes spinny{
     from{
@@ -486,7 +460,3 @@ summary{
         opacity: 1;
     }
 }
-
-
-
-

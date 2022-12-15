@@ -11,7 +11,6 @@
 }
 
  body{
-    
     font-family: 'Exo 2', sans-serif;
     background: url(../images/stars.png);
     background-position: center;
@@ -28,10 +27,8 @@ ul{
 
 /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: 5vh;
-
 }
 
 /* Class for setting primary orangey/red color*/
@@ -92,7 +89,6 @@ ul{
     background-position: center;
     background-size:auto;
     background-repeat: repeat;
-
 }
 
 /* simple gradiant for header */
@@ -115,10 +111,8 @@ ul{
 
     /* simple page divider  */
 .page-splitter{
-
     width: 100vw;
     height: .5vh;
-
 }
 
 /*class to apply simple flex to align content of div*/
@@ -163,7 +157,6 @@ p{
     font-size: 1rem;
     text-align: center;
 }
-
 
 #ship-background{
     background-image: url(../images/lauch-ship-lower-res-compressed.webp);
@@ -308,7 +301,6 @@ p{
       display: flex;
     }
     
-  
     .menu {
       position: absolute;
       z-index: 200;
@@ -351,7 +343,6 @@ p{
         text-decoration: none;
         padding-right: 5vw;
     }
-
 }
 
 @media screen and (min-width: 1000px ){
@@ -382,7 +373,6 @@ p{
         text-align: center;
     }
 
-
     /* Hide checkbox used for compact view nav burger*/
     #menu-toggle{
         display: none;
@@ -396,7 +386,6 @@ p{
         padding: .5rem;  
     }
 
-
     .menu *{
         text-decoration: none;
         list-style-type: none;
@@ -406,14 +395,11 @@ p{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
 
     .menu a:hover {
-        /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color:#DF6C24;
-
     }
 
     h2{
@@ -446,7 +432,6 @@ p{
 
     #ship-details{
         position: absolute;
-        /* background-color: rgba(62, 146, 204, .2); */
         z-index: 60;
         width: 20vw;
         height: 50vh;
@@ -472,7 +457,6 @@ p{
     }
 
     #colony-ship-background{
-
         position: absolute;
         z-index: 50;
         background-image: url(../images/jagger1-fullres.webp);
@@ -484,12 +468,10 @@ p{
         top: 15vh;
         left: 50vw;
         filter: drop-shadow(0 0 1rem #ffffff);
-
     }
 
     #colony-ship-details{
         position: absolute;
-        /* background-color: rgba(62, 146, 204, .2); */
         z-index: 60;
         width: 20vw;
         height: 50vh;
@@ -583,8 +565,6 @@ p{
         letter-spacing: .1rem;
         padding: .5rem;  
     }
-    
-
 
     .menu *{
         text-decoration: none;
@@ -595,15 +575,8 @@ p{
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
-
-
-
 }
-
-
-
 
 /* Simple 3d rotate on x axis of globe icon */
 
@@ -612,7 +585,6 @@ p{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-
 }
 @keyframes spinny{
     from{

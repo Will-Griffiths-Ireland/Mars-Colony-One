@@ -12,7 +12,6 @@ body {
     background-color: #000000;
     /*hide overflow on x axis that show up due to transform animations*/
     overflow-x: hidden;
-
 }
 
 /* simple page divider  */
@@ -99,8 +98,9 @@ h2 {
     width: 100vw;
     bottom: 6vh;
     z-index: 100;
-
 }
+
+/*reset list styles*/
 
 .li-reset {
 
@@ -120,7 +120,6 @@ h2 {
     padding: 0;
 }
 
-
 /* simple gradiant for header */
 .main-heading {
     background: linear-gradient(180deg, rgba(62, 146, 204, 1) 0%, rgba(0, 0, 0, 0) 100%);
@@ -134,7 +133,6 @@ h2 {
     float: right;
     height: 5vh;
 }
-
 
 /*Main mars map container*/
 #main-map {
@@ -160,8 +158,6 @@ h2 {
     background-color: rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
-
 }
 
 #quad2 {
@@ -174,7 +170,6 @@ h2 {
     background-color: rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 #quad3 {
@@ -187,7 +182,6 @@ h2 {
     background-color: rgba(116, 18, 29, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 #quad4 {
@@ -200,7 +194,6 @@ h2 {
     background-color: rgba(62, 146, 204, .3);
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
 }
 
 /* Rules for lower resolution mobile/tablet screens*/
@@ -238,11 +231,9 @@ h2 {
         bottom: 0vh;
         z-index: 100;
         font-size: 1rem;
-
     }
 
     .li-reset {
-
         padding: .1rem;
         margin: 0;
         letter-spacing: normal;
@@ -277,8 +268,6 @@ h2 {
         background-color: rgba(62, 146, 204, .3);
         border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
-
     }
 
     #quad2 {
@@ -291,7 +280,6 @@ h2 {
         background-color: rgba(116, 18, 29, .3);
         border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
     }
 
     #quad3 {
@@ -304,7 +292,6 @@ h2 {
         background-color: rgba(116, 18, 29, .3);
         border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
     }
 
     #quad4 {
@@ -317,7 +304,6 @@ h2 {
         background-color: rgba(62, 146, 204, .3);
         border-radius: 1%;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
     }
 
     /*Code for burger menu*/
@@ -390,7 +376,6 @@ h2 {
         display: flex;
     }
 
-
     .menu {
         position: absolute;
         z-index: 200;
@@ -434,7 +419,6 @@ h2 {
         text-decoration: none;
         padding-right: 5vw;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -457,7 +441,6 @@ h2 {
         font-size: 2.2rem;
     }
 
-
     /* Hide checkbox used for compact view nav burger*/
     #menu-toggle {
         display: none;
@@ -470,7 +453,6 @@ h2 {
         letter-spacing: .1rem;
         padding: .5rem;
     }
-
 
     .menu * {
         text-decoration: none;
@@ -485,15 +467,10 @@ h2 {
     }
 
     .menu a:hover {
-        /* border-bottom:1px solid #DF6C24; */
         text-shadow: 0 0 1rem #ffffff;
         color: #DF6C24;
 
     }
-
-
-
-
 }
 
 @media screen and (min-width: 1400px) {
@@ -516,8 +493,6 @@ h2 {
         font-size: 2.8rem;
     }
 
-
-
     li {
         display: inline;
         background: inherit;
@@ -525,7 +500,6 @@ h2 {
         letter-spacing: .1rem;
         padding: .5rem;
     }
-
 
     .menu * {
         text-decoration: none;
@@ -536,7 +510,6 @@ h2 {
         color: white;
         padding-right: 1rem;
         line-height: 5vh;
-
     }
 }
 
@@ -569,7 +542,6 @@ h2 {
     from {
         opacity: 0.01;
     }
-
     to {
         opacity: 1;
     }

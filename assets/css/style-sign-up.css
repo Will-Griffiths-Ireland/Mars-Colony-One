@@ -118,7 +118,7 @@ p{
 }
 
 h3,p{
-    font-family: Helvetica, sans-serif;
+    font-family: 'Exo 2', sans-serif;
     color: #ffffff;
     font-size: 1rem;
     width: 80vw;
@@ -372,7 +372,7 @@ input:hover{
     }
 
     h3,p{
-        font-family: Helvetica, sans-serif;
+        font-family: 'Exo 2', sans-serif;
         color: #ffffff;
         font-size: 1rem;
         width: 30vw;
@@ -557,5 +557,3 @@ input:hover{
         transform:unset;
     }
 }
-
-
